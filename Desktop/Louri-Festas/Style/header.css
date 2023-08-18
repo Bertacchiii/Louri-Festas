@@ -1,0 +1,36 @@
+.Main_Header{
+    background-color: #1C6758 ;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    
+}
+
+/* .Menu_Hamburger{
+
+} */
+
+.Img_Menu{
+   width: 20px;
+   height: 20px;
+   margin-left: 40px;
+   left: auto;
+}
+
+.Logo_Header{
+   width: 100px;
+    
+}
+
+.Texto_Header{
+    position: relative;
+    left: 65%;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    color: #EEF2E6;
+    
+} 
+
+
