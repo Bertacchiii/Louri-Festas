@@ -1,42 +1,25 @@
 footer {
     background: var(--cor-terciaria);
-    color: rgb(5, 4, 4);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
+    position: flex;
+    bottom: 10px;
 }
 
 .footer-top-wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 48px;
-    margin: 0 auto;
+    flex-wrap:nowrap;
+    gap: 100px;
+    margin-top:  auto;
     padding: 16px;
-    min-height: 160px;
+    
 }
 
-.footer-top-wrapper > section {
-    width: 250px;
-}
 
-h2 {
-    text-align: right;
-    color: #010102;
-    margin-top: 0px;
-    margin-bottom: 16px;
-    opacity: 0.7;
-    font-size: 16px;
-    font-weight: 600;
-}
 
 .logo {
     position: absolute;
-    top: -48px;
-    left: 5%;
+    top: 520px;
+    left: 3%;
     width: 280px;
     margin-bottom: 12px;
 }
@@ -52,7 +35,7 @@ h2 {
     height: 30px;
     flex-direction: column;
     justify-content: right;
-    transform: translate(150%, -20px);
+    transform: translate(150%, 10px);
 }
 
 .sp::before{
@@ -62,13 +45,13 @@ h2 {
     display: block;
     width: 20%;
     height: 4px;
-    transform: translate(725%, 10px);
+    transform: translate(725%, 35px);
     background: var(--cor-primaria);
 }
 
 .loc_icon{
     position: relative;
-    transform: translate(333px, -55px);
+    transform: translate(333px, -20px);
 }
 
 .faleconosco::before{
@@ -78,7 +61,7 @@ h2 {
     display: block;
     width: 20%;
     height: 4px;
-    transform: translate(965%, 10px);
+    transform: translate(965%, 35px);
     background: var(--cor-primaria);
 }
 .WPP::before{
@@ -87,7 +70,7 @@ h2 {
     display: block;
     width: 20%;
     height: 4px;
-    transform: translate(965%, -30px);
+    transform: translate(965%, 1px);
     background: var(--cor-primaria);
 }
 
@@ -98,17 +81,17 @@ h2 {
     height: 30px;
     flex-direction: column;
     justify-content: right;
-    transform: translate(200%, -20px);
+    transform: translate(200%, 10px);
 }
 
 .phone_icon{
     position: relative;
-    transform: translate(450px, -70px);
+    transform: translate(450px, -40px);
 }
 
 .wpp_icon{
     position: relative;
-    transform: translate(452px, -50px);
+    transform: translate(452px, -20px);
     
 }
 

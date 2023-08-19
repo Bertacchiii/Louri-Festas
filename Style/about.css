@@ -1,10 +1,13 @@
 .infos {
     position: relative;
+    z-index: 0;
   }
 
 .rectangle-102,
 .rectangle-102 * {
   box-sizing: border-box;
+  position: relative;
+  margin-top: 3em;
 }
 .rectangle-102 {
   background: #3d8361;
@@ -17,7 +20,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-600px, -120px);
+    transform: translate(-600px, -115px);
   }
   
   .desde {
@@ -62,7 +65,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-100px, -120px);
+    transform: translate(-100px, -115px);
   }
   
   .quemsomos {
@@ -102,14 +105,14 @@
   position: relative;
   width: 136px;
   height: 27px;
-  white-space: nowra;
+  white-space: nowrap;
 }
 
 .catalogo{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(400px, -120px);
+    transform: translate(400px, -115px);
   }
   
   .catalogo {
