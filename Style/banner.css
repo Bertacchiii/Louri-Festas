@@ -1,0 +1,39 @@
+.Main_Carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Img_Carrossel img{
+    width: 450px;
+}
+
+.Quadro_Carrossel{
+    background-color: var(--cor-secundaria);
+    width: 500px;
+    height: 350px;
+    border-radius: 28px;
+    position: relative;
+    right: 5%;  
+    z-index: -1;  
+    
+}
+
+.Titulo_Carrossel{
+    text-align: left;
+    margin: 1.5em 0 0.5em 4em;
+    color: #FFFFFF;
+    font-family: var(--fonte-primaria);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.Texto_Carrossel{
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0 0 0.5em 4.5em;
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 7em;
+}

@@ -1,6 +1,6 @@
 .Container_Header{
    background-color: var(--cor-primaria);
-   position: fixed; 
+   /* position: fixed;  */
    width: 100%;
    top: 0;
    left: 0;
