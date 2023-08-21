@@ -50,6 +50,14 @@
     cursor: pointer;
 }
 
+.Copos_Texto{
+    font-family: var(--fonte-primaria);
+    margin-top: 1em;
+    margin-left: 1vh;
+    color: var(--cor-terciaria);
+}
+
+
 .Icone_Prato {
     align-items: left;
     margin-left: 150px;
@@ -63,7 +71,7 @@
 }
 
 .Prato_Svg{
-    margin-top: 6em;
+    margin-top: 5em;
     margin-left: 3em;
 }
 
@@ -72,6 +80,15 @@
     color: white;
     cursor: pointer;
 }
+
+.Pratos_Texto{
+    font-family: var(--fonte-primaria);
+    margin-top: 1em;
+    margin-left: 3vh;
+    color: var(--cor-terciaria);
+
+}
+
 
 .Icone_Prato_Quadrado {
     align-items: left;
@@ -96,6 +113,14 @@
     cursor: pointer;
 }
 
+.Pratos_Quadrados_Texto{
+    font-family: var(--fonte-primaria);
+    margin-top: 1em;
+    margin-left: 1vh;
+    color: var(--cor-terciaria);
+}
+
+
 .Icone_Cumbuca {
     align-items: left;
     margin-left: 610px;
@@ -119,6 +144,14 @@
     cursor: pointer;
 }
 
+.Cumbuca_Texto{
+    font-family: var(--fonte-primaria);
+    margin-top: 1em;
+    margin-left: 2vh;
+    color: var(--cor-terciaria);
+}
+
+
 .Icone_Bandejas {
     align-items: left;
     margin-left: 840px;
@@ -141,6 +174,14 @@
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
+
+.Bandejas_Texto{
+    font-family: var(--fonte-primaria);
+    margin-top: 1em;
+    margin-left: 1vh;
+    color: var(--cor-terciaria);
+}
+
 
 .Icone_Neon {
     align-items: left;
@@ -168,4 +209,27 @@
     background-color:  rgba(0, 250, 154);
     color: rgb(47, 0, 255);
     cursor: pointer;
+}
+
+.Neon_Texto{ 
+    font-family: var(--fonte-primaria);
+    margin-top: 1em;
+    margin-left: 4em;
+    color: var(--cor-terciaria);
+}
+
+.Icone_Copo:after,
+.Icone_Prato:after,
+.Icone_Prato_Quadrado:after,
+.Icone_Cumbuca:after,
+.Icone_Bandejas:after,
+.Icone_Neon:after {
+    content: "";
+    display: block;
+    width: 2px; /* Largura da divisória */
+    height: 100%; /* Altura da divisória */
+    background-color: #fff; /* Cor da divisória */
+    position: absolute;
+    right: -1px; /* Posiciona a divisória à direita do ícone */
+    top: 0;
 }
