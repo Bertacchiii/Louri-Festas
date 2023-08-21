@@ -40,8 +40,8 @@
 .Texto_Qualidade{
     font-family: var(--fonte-primaria);
     color: var(--cor-terciaria);
-    transform: translate(55px, 100px);
-    font-size: 25px;
+    transform: translate(2em, 3.3em);
+    font-size: 1.3vw;
 }
 
 /* analisar alinhamento */
