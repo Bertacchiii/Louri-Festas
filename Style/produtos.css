@@ -1,13 +1,137 @@
-.Main_Produtos{
+.Main_Produtos {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 7em;
-    display:flex;
+    height: 50vh;
+    background-color: var(--cor-secundaria);
+    border-radius: 30px;
+    margin: 7em
 }
 
-.Quadro_Produtos{
-width: 1141px; 
-height: 363px; 
-background: #3D8361; 
-border-radius: 15px;
-transform: translate(17em);
+
+
+
+.Icone_Copo {
+    align-items: left;
+    margin-left: -80px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo:hover {
+    background-color:  rgba(40, 218, 132, 0.8);
+    color: white;
+    cursor: pointer;
+}
+
+.Icone_Copo_1 {
+    align-items: left;
+    margin-left: 150px;
+    margin-top: -400px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo_1:hover {
+    background-color:  rgba(249, 252, 250, 0.8);
+    color: white;
+    cursor: pointer;
+}
+
+.Icone_Copo_2 {
+    align-items: left;
+    margin-left: 380px;
+    margin-top: -400px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo_2:hover {
+    background-color:  rgba(0, 17, 255, 0.8);
+    color: rgb(47, 0, 255);
+    cursor: pointer;
+}
+
+.Icone_Copo_3 {
+    align-items: left;
+    margin-left: 610px;
+    margin-top: -400px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo_3:hover {
+    background-color:  rgba(211, 248, 0, 0.8);
+    color: rgb(47, 0, 255);
+    cursor: pointer;
+}
+
+.Icone_Copo_4 {
+    align-items: left;
+    margin-left: 840px;
+    margin-top: -400px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo_4:hover {
+    background-color:  rgba(248, 0, 0, 0.8);
+    color: rgb(47, 0, 255);
+    cursor: pointer;
+}
+
+.Icone_Copo_5 {
+    align-items: left;
+    margin-left: 1070px;
+    margin-top: -400px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo_5:hover {
+    background-color:  rgba(248, 141, 0, 0.8);
+    color: rgb(47, 0, 255);
+    cursor: pointer;
+}
+
+.Icone_Copo_6 {
+    align-items: left;
+    margin-left: 1300px;
+    margin-top: -400px;
+    transform: translate(30px, 0px);
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 50px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Icone_Copo_6:hover {
+    background-color:  rgba(248, 0, 194, 0.8);
+    color: rgb(47, 0, 255);
+    cursor: pointer;
 }
