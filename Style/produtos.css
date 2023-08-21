@@ -1,3 +1,23 @@
+.Main_Produtos_Text{
+    font-family: var(--fonte-primaria);
+    margin-left:  8em;
+    margin-top: 10em;
+    white-space: pre-line;
+}
+
+
+.Título_Produtos{
+    font-weight: 600;
+    font-size:36px;
+}
+
+.Texto_Sobre_Produtos{
+    font-size: 24px;
+    white-space: pre-line;
+}
+
+
+
 .Main_Produtos {
     display: flex;
     justify-content: center;
@@ -25,7 +45,7 @@
 }
 
 .Icone_Copo:hover {
-    background-color:  rgba(40, 218, 132, 0.8);
+    background-color:  rgba(0, 250, 154);
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -48,7 +68,7 @@
 }
 
 .Icone_Prato:hover {
-    background-color:  rgba(249, 252, 250, 0.8);
+    background-color:  rgba(0, 250, 154);
     color: white;
     cursor: pointer;
 }
@@ -71,7 +91,7 @@
 }
 
 .Icone_Prato_Quadrado:hover {
-    background-color:  rgba(0, 17, 255, 0.8);
+    background-color:  rgba(0, 250, 154);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
@@ -90,11 +110,11 @@
 
 .Cumbuca_Svg{
     margin-top: 9em;
-    margin-left: 50px;
+    margin-left: 2em;
 }
 
 .Icone_Cumbuca:hover {
-    background-color:  rgba(211, 248, 0, 0.8);
+    background-color:  rgba(0, 250, 154);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
@@ -117,7 +137,7 @@
 }
 
 .Icone_Bandejas:hover {
-    background-color:  rgba(248, 0, 0, 0.8);
+    background-color:  rgba(0, 250, 154);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
@@ -145,7 +165,7 @@
 }
 
 .Icone_Neon:hover {
-    background-color:  rgba(248, 141, 0, 0.8);
+    background-color:  rgba(0, 250, 154);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
