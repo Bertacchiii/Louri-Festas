@@ -1,19 +1,30 @@
+.Main_Qualidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .background{
-    margin-left: 10px;
-    transform: translate(150px, -560px);
+    /* margin-left: 2em; */
+    /* transform: translate(150px, -560px); */
     z-index: -1;
-    position: absolute;
+    /* position: absolute; */
+    left: 2%;
     
+}
+.background img{
+    width: 45vw;
 }
 
 .Quadro_Qualidade{
     position: relative;
-    width: 774px; 
-    height: 580px; 
+    width: 43vw; 
+    height: 31vw; 
     background: #3D8361; 
     border-radius: 28px;
-    margin-left: 55em;
-    z-index: 1
+    /* margin-left: 55em; */
+    z-index: 1;
+    right: -2%;
     
 }
 
@@ -21,8 +32,9 @@
 .Titulo_Qualidade{
     font-family: var(--fonte-primaria);
     color: var(--cor-terciaria);
-    font-size: 40px;
-    transform: translate(55px, 15px);
+    font-size: 2vw;
+    transform: translate(1.5em, 0.9em);
+    font-weight: 600;
 }
 
 .Texto_Qualidade{
@@ -30,5 +42,6 @@
     color: var(--cor-terciaria);
     transform: translate(55px, 100px);
     font-size: 25px;
-    font-weight: 300;
 }
+
+/* analisar alinhamento */

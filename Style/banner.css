@@ -1,17 +1,18 @@
 .Main_Carrossel{
+    margin: 2em  0  2em  0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .Img_Carrossel img{
-    width: 450px;
+    width: 36vw;
 }
 
 .Quadro_Carrossel{
     background-color: var(--cor-secundaria);
-    width: 500px;
-    height: 350px;
+    width: 35vw;
+    height: 27vw;
     border-radius: 28px;
     position: relative;
     right: 5%;  
@@ -21,19 +22,21 @@
 
 .Titulo_Carrossel{
     text-align: left;
-    margin: 1.5em 0 0.5em 4em;
-    color: #FFFFFF;
+    margin: 1.5em 0 1em 3.5em;
+    color:var(--cor-terciaria);
     font-family: var(--fonte-primaria);
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 2vw; 
+    font-weight: 600;
 }
 
 .Texto_Carrossel{
     text-align: left;
-    color: #FFFFFF;
+    color:var(--cor-terciaria);
     margin: 0 0 0.5em 4.5em;
     font-family: var(--fonte-primaria);
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 1.6vw;
+    font-weight: 300;
     margin-right: 7em;
 }
+
+/* analisar desalinhamento do banner */
