@@ -1,0 +1,13 @@
+.Main_Produtos{
+    align-items: center;
+    margin: 7em;
+    display:flex;
+}
+
+.Quadro_Produtos{
+width: 1141px; 
+height: 363px; 
+background: #3D8361; 
+border-radius: 15px;
+transform: translate(17em);
+}
