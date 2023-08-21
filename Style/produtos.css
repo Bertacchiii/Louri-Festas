@@ -8,9 +8,6 @@
     margin: 7em
 }
 
-
-
-
 .Icone_Copo {
     align-items: left;
     margin-left: -80px;
@@ -22,13 +19,18 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
+.Copo_Svg{
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
 .Icone_Copo:hover {
     background-color:  rgba(40, 218, 132, 0.8);
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
-.Icone_Copo_1 {
+.Icone_Prato {
     align-items: left;
     margin-left: 150px;
     margin-top: -400px;
@@ -40,13 +42,18 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.Icone_Copo_1:hover {
+.Prato_Svg{
+    margin-top: 6em;
+    margin-left: 3em;
+}
+
+.Icone_Prato:hover {
     background-color:  rgba(249, 252, 250, 0.8);
     color: white;
     cursor: pointer;
 }
 
-.Icone_Copo_2 {
+.Icone_Prato_Quadrado {
     align-items: left;
     margin-left: 380px;
     margin-top: -400px;
@@ -58,13 +65,18 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.Icone_Copo_2:hover {
+.Prato_Quadrado_Svg{
+    margin-top: 9em;
+    margin-left: 2em;
+}
+
+.Icone_Prato_Quadrado:hover {
     background-color:  rgba(0, 17, 255, 0.8);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
-.Icone_Copo_3 {
+.Icone_Cumbuca {
     align-items: left;
     margin-left: 610px;
     margin-top: -400px;
@@ -76,13 +88,18 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.Icone_Copo_3:hover {
+.Cumbuca_Svg{
+    margin-top: 9em;
+    margin-left: 50px;
+}
+
+.Icone_Cumbuca:hover {
     background-color:  rgba(211, 248, 0, 0.8);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
-.Icone_Copo_4 {
+.Icone_Bandejas {
     align-items: left;
     margin-left: 840px;
     margin-top: -400px;
@@ -94,13 +111,18 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.Icone_Copo_4:hover {
+.Bandeja_Svg{
+    margin-top: 8em;
+    margin-left: 3em;
+}
+
+.Icone_Bandejas:hover {
     background-color:  rgba(248, 0, 0, 0.8);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
-.Icone_Copo_5 {
+.Icone_Neon {
     align-items: left;
     margin-left: 1070px;
     margin-top: -400px;
@@ -112,26 +134,18 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.Icone_Copo_5:hover {
+.Neon_Svg_1{
+    margin-top: 6em;
+    margin-left: 3em;
+}
+
+.Neon_Svg_2{
+    margin-top: -5em;
+    margin-left: 6em;
+}
+
+.Icone_Neon:hover {
     background-color:  rgba(248, 141, 0, 0.8);
-    color: rgb(47, 0, 255);
-    cursor: pointer;
-}
-
-.Icone_Copo_6 {
-    align-items: left;
-    margin-left: 1300px;
-    margin-top: -400px;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
-    border-radius: 30px;
-    padding: 50px 0;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.Icone_Copo_6:hover {
-    background-color:  rgba(248, 0, 194, 0.8);
     color: rgb(47, 0, 255);
     cursor: pointer;
 }
