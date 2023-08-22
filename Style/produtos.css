@@ -3,6 +3,7 @@
     margin-left:  8em;
     margin-top: 10em;
     white-space: pre-line;
+    display: flex;
 }
 
 
@@ -30,7 +31,7 @@
 
 .Icone_Copo {
     align-items: left;
-    margin-left: -80px;
+    margin-left: -2em;
     transform: translate(30px, 0px);
     width: 200px;
     height: 300px;
@@ -60,7 +61,7 @@
 
 .Icone_Prato {
     align-items: left;
-    margin-left: 150px;
+    margin-left: 15em;
     margin-top: -400px;
     transform: translate(30px, 0px);
     width: 200px;
@@ -92,7 +93,7 @@
 
 .Icone_Prato_Quadrado {
     align-items: left;
-    margin-left: 380px;
+    margin-left: 32em;
     margin-top: -400px;
     transform: translate(30px, 0px);
     width: 200px;
@@ -123,7 +124,7 @@
 
 .Icone_Cumbuca {
     align-items: left;
-    margin-left: 610px;
+    margin-left: 49em;
     margin-top: -400px;
     transform: translate(30px, 0px);
     width: 200px;
@@ -154,7 +155,7 @@
 
 .Icone_Bandejas {
     align-items: left;
-    margin-left: 840px;
+    margin-left: 66em;
     margin-top: -400px;
     transform: translate(30px, 0px);
     width: 200px;
@@ -185,11 +186,11 @@
 
 .Icone_Neon {
     align-items: left;
-    margin-left: 1070px;
-    margin-top: -400px;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
+    margin-left: 85em;
+    margin-top: -25em;
+    display:flex;
+    width: 12em;
+    height: 19em;
     border-radius: 30px;
     padding: 50px 0;
     transition: background-color 0.3s, color 0.3s;
@@ -197,12 +198,12 @@
 
 .Neon_Svg_1{
     margin-top: 6em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 .Neon_Svg_2{
-    margin-top: -5em;
-    margin-left: 6em;
+    margin-top: 6em;
+    margin-left: -2em;
 }
 
 .Icone_Neon:hover {
@@ -213,8 +214,8 @@
 
 .Neon_Texto{ 
     font-family: var(--fonte-primaria);
-    margin-top: 1em;
-    margin-left: 4em;
+    margin-top: 13em;
+    margin-left: -7em;
     color: var(--cor-terciaria);
 }
 
@@ -222,14 +223,14 @@
 .Icone_Prato:after,
 .Icone_Prato_Quadrado:after,
 .Icone_Cumbuca:after,
-.Icone_Bandejas:after,
-.Icone_Neon:after {
+
+.Icone_Bandejas:after {
     content: "";
-    display: block;
+    display: flex;
     width: 2px; /* Largura da divisória */
     height: 100%; /* Altura da divisória */
     background-color: #fff; /* Cor da divisória */
     position: absolute;
-    right: -1px; /* Posiciona a divisória à direita do ícone */
+    right: -2em; /* Posiciona a divisória à direita do ícone */
     top: 0;
 }
