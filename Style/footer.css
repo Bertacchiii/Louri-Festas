@@ -248,6 +248,13 @@ footer {
     
 } */
 
+.Faixa_divisoria{
+    display: flex;
+    width: 116.4em; 
+    height: 0px; 
+    border: 1px #3D8361 solid;
+}
+
 .footer-bottom {
     height: 60px;
     margin-top: 48px;
@@ -255,7 +262,7 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 116.5em;
     background-color: var(--cor-primaria);
     /* padding: 4px; */
     text-decoration: none;
