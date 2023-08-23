@@ -14,14 +14,12 @@ footer {
     
 }
 
-
-
 .logo {
-    position: absolute;
-    top: 149em;
-    left: 3em;
+    position: flex;
+    top: 150em;
+    left: 5em;
     width: 280px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .footer-top {
@@ -36,7 +34,20 @@ footer {
     flex-direction: column;
     justify-content: right;
     transform: translate(150%, 10px);
+    margin-top: 5em;
 }
+
+.sede1{
+    font-family: var(--fonte-primaria);
+    display: flex;
+    width: 241px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: right;
+    transform: translate(150%, 10px);
+    margin-top: 2em;
+}
+
 
 .sp::before{
     font-family: var(--fonte-primaria);
@@ -105,12 +116,6 @@ footer {
     width: 100%;
     background-color: var(--cor-primaria);
     padding: 4px;
-    text-decoration: none;
-}
-
-.footer-bottom > small {
-    font-size: 16px;
-    margin: 0 4px;
     text-decoration: none;
 }
 

@@ -26,3 +26,7 @@
 html{
     scroll-behavior: smooth;
 } 
+
+.body{
+    background-color: var(--cor-terciaria);
+}

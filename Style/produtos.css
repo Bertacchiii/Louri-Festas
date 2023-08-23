@@ -15,6 +15,8 @@
 .Texto_Sobre_Produtos{
     font-size: 24px;
     white-space: pre-line;
+    margin-top: 2em;
+    margin-left: -7em;
 }
 
 
@@ -62,7 +64,7 @@
 .Icone_Prato {
     align-items: left;
     margin-left: 15em;
-    margin-top: -400px;
+    margin-top: -25em;
     transform: translate(30px, 0px);
     width: 200px;
     height: 300px;
@@ -94,7 +96,7 @@
 .Icone_Prato_Quadrado {
     align-items: left;
     margin-left: 32em;
-    margin-top: -400px;
+    margin-top: -25em;
     transform: translate(30px, 0px);
     width: 200px;
     height: 300px;
@@ -119,13 +121,14 @@
     margin-top: 1em;
     margin-left: 1vh;
     color: var(--cor-terciaria);
+    text-decoration: none;
 }
 
 
 .Icone_Cumbuca {
     align-items: left;
     margin-left: 49em;
-    margin-top: -400px;
+    margin-top: -25em;
     transform: translate(30px, 0px);
     width: 200px;
     height: 300px;
@@ -156,7 +159,7 @@
 .Icone_Bandejas {
     align-items: left;
     margin-left: 66em;
-    margin-top: -400px;
+    margin-top: -25em;
     transform: translate(30px, 0px);
     width: 200px;
     height: 300px;
