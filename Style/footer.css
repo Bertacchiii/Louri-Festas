@@ -11,7 +11,7 @@ footer {
     
 }
 
-.logo {
+.Logo_Footer{
     width: 15vw;
 }
 
@@ -37,20 +37,27 @@ footer {
     left: -1.25em;
 }
 
+/* funfo */
+
 /* Aba de Contatos PRT 1*/
 .Contato_Main{
     font-family: var(--fonte-primaria);
     white-space: pre-line;
     color: var(--cor-letra-escura);
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
 }
 
 .Contato_Texto{
     font-size: 0.96vw;
-
+    top:-0.5em;
+    position: relative;
 }
 
 .Contato{
-
+    position: relative;
+    bottom: -1em;
 
 }
 
@@ -64,7 +71,7 @@ footer {
 /* Aba de Contatos PRT 2 */
 .Contato_WhatsApp{
     font-family: var(--fonte-primaria);
-    white-space: pre-line;
+    /* white-space: pre-line; */
     color: var(--cor-letra-escura);
     
 }
@@ -77,7 +84,7 @@ footer {
 
 .Icon_WhatsApp{
     position: relative;
-    top: -4em;
+    top: -4.90em;
     left: -1.5em;
 
 }
@@ -88,7 +95,7 @@ footer {
     border: 1px var(--cor-primaria) solid;
     border-radius: 15px;
     background-color:var(--cor-primaria);
-    left: -23px;
+    left: -1.43em;
     position: relative;
 }
 

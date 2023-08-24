@@ -13,10 +13,11 @@
 }
 
 .Texto_Sobre_Produtos{
-    font-size: 24px;
+    font-size: 1.5em;
     white-space: pre-line;
     margin-top: 2em;
-    margin-left: -7em;
+    margin-left: -6.80em;
+    font-weight: 100;
 }
 
 
@@ -27,18 +28,19 @@
     align-items: center;
     height: 50vh;
     background-color: var(--cor-secundaria);
-    border-radius: 30px;
-    margin: 7em
+    border-radius: 1.75em;
+    margin: 7em;
+    margin-left: 8.75em;
 }
 
 .Icone_Copo {
     align-items: left;
     margin-left: -2em;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
-    border-radius: 30px;
-    padding: 50px 0;
+    transform: translate(1.875em, 0em);
+    width: 12.5em;
+    height: 18.75em;
+    border-radius: 1.875em;
+    padding: 3.125em 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -49,7 +51,6 @@
 
 .Icone_Copo:hover {
     background-color:  rgba(0, 250, 154);
-    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -58,6 +59,7 @@
     margin-top: 1em;
     margin-left: 1vh;
     color: var(--cor-terciaria);
+    font-weight: 600;
 }
 
 
@@ -65,11 +67,11 @@
     align-items: left;
     margin-left: 15em;
     margin-top: -25em;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
-    border-radius: 30px;
-    padding: 50px 0;
+    transform: translate(1.875em, 0em);
+    width: 12.5em;
+    height: 18.75em;
+    border-radius: 1.875em;
+    padding: 3.125em 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -80,7 +82,6 @@
 
 .Icone_Prato:hover {
     background-color:  rgba(0, 250, 154);
-    color: white;
     cursor: pointer;
 }
 
@@ -89,6 +90,7 @@
     margin-top: 1em;
     margin-left: 3vh;
     color: var(--cor-terciaria);
+    font-weight: 600;
 
 }
 
@@ -97,10 +99,10 @@
     align-items: left;
     margin-left: 32em;
     margin-top: -25em;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
-    border-radius: 30px;
+    transform: translate(1.875em, 0em);
+    width: 12.5em;
+    height: 18.75em;
+    border-radius: 1.875em;
     padding: 50px 0;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -112,16 +114,15 @@
 
 .Icone_Prato_Quadrado:hover {
     background-color:  rgba(0, 250, 154);
-    color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
 .Pratos_Quadrados_Texto{
     font-family: var(--fonte-primaria);
     margin-top: 1em;
-    margin-left: 1vh;
+    margin-left: 0em;
     color: var(--cor-terciaria);
-    text-decoration: none;
+    font-weight: 600;
 }
 
 
@@ -129,11 +130,11 @@
     align-items: left;
     margin-left: 49em;
     margin-top: -25em;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
-    border-radius: 30px;
-    padding: 50px 0;
+    transform: translate(1.875em, 0em);
+    width: 12.5em;
+    height: 18.75em;
+    border-radius: 1.875em;
+    padding: 3.125em 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -144,7 +145,6 @@
 
 .Icone_Cumbuca:hover {
     background-color:  rgba(0, 250, 154);
-    color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
@@ -153,6 +153,7 @@
     margin-top: 1em;
     margin-left: 2vh;
     color: var(--cor-terciaria);
+    font-weight: 600;
 }
 
 
@@ -160,11 +161,11 @@
     align-items: left;
     margin-left: 66em;
     margin-top: -25em;
-    transform: translate(30px, 0px);
-    width: 200px;
-    height: 300px;
-    border-radius: 30px;
-    padding: 50px 0;
+    transform: translate(1.875em, 0px);
+    width: 12.5em;
+    height: 18.75em;
+    border-radius: 1.875em;
+    padding: 3.125em 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -175,7 +176,6 @@
 
 .Icone_Bandejas:hover {
     background-color:  rgba(0, 250, 154);
-    color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
@@ -184,6 +184,7 @@
     margin-top: 1em;
     margin-left: 1vh;
     color: var(--cor-terciaria);
+    font-weight: 600;
 }
 
 
@@ -194,8 +195,8 @@
     display:flex;
     width: 12em;
     height: 19em;
-    border-radius: 30px;
-    padding: 50px 0;
+    border-radius: 1.875em;
+    padding: 3.125em 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -211,28 +212,27 @@
 
 .Icone_Neon:hover {
     background-color:  rgba(0, 250, 154);
-    color: rgb(47, 0, 255);
     cursor: pointer;
 }
 
 .Neon_Texto{ 
     font-family: var(--fonte-primaria);
     margin-top: 13em;
-    margin-left: -7em;
+    margin-left: -8em;
     color: var(--cor-terciaria);
+    font-weight: 600;
 }
 
 .Icone_Copo:after,
 .Icone_Prato:after,
 .Icone_Prato_Quadrado:after,
 .Icone_Cumbuca:after,
-
 .Icone_Bandejas:after {
-    content: "";
+    content: " ";
     display: flex;
-    width: 2px; /* Largura da divisória */
-    height: 100%; /* Altura da divisória */
-    background-color: #fff; /* Cor da divisória */
+    width: 0.01em; /* Largura da divisória */
+    height: 25.938em; /* Altura da divisória */
+    background-color: var(--cor-terciaria); /* Cor da divisória */
     position: absolute;
     right: -2em; /* Posiciona a divisória à direita do ícone */
     top: 0;

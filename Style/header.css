@@ -38,7 +38,8 @@
 
 .Texto_Header{
    text-decoration: none;
-   color: var(--cor-letra-clara); 
+   color: var(--cor-letra-clara);
+   font-weight: 580;
 }
 
 .Icones_Header{

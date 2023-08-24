@@ -29,4 +29,5 @@ html{
 
 .body{
     background-color: var(--cor-terciaria);
+    z-index: 1;
 }
