@@ -1,155 +1,158 @@
-.infos {
+.Informações_Main {
     position: relative;
     z-index: 0;
   }
 
-.rectangle-102,
-.rectangle-102 * {
+.Background_Main,
+.Background_Main * {
   box-sizing: border-box;
   position: relative;
   margin-top: 3em;
 }
-.rectangle-102 {
+.Background_Main {
   background: #3d8361;
-  width: 116.5em;
+  width: 129.41em;
   height: 30em;
   margin-top: 80px;
 }
 
-.desde {
+/* Desde 2005 */
+.Title_Desde {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-600px, -115px);
-  }
-  
-  .desde {
+    top: 4em;
+    left: 10em;
     font-family: var(--fonte-primaria);
     margin: 0;
     font-size: 24px;
-    color: white;
+    color: var(--cor-letra-clara);
+    font-weight: 600;
   }
 
-  .rectangle-103,
-  .rectangle-103 * {
-  box-sizing: border-box;
-}
-.rectangle-103 {
-  transform: translate(0px, 20px);
-  border-radius: 40px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-  width: 273px;
-  height: 91px;
-  position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.saiba-mais1,
-.saiba-mais1 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #ffffff;
-}
-.saiba-mais1 {
-  transform: translate(70px, -40px);
-  color: #ffffff;
-  font: 400 24px var(--fonte-primaria);
-  position: relative;
-  width: 136px;
-  height: 27px;
-}
-
-.quemsomos{
+.Desde_Text{
+    margin-top: 1em;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-100px, -115px);
-  }
-  
-  .quemsomos {
-    font-family: var(--fonte-primaria);
-    margin: 0;
+    font-family: var(--fonte-primaria); 
     font-size: 24px;
-    color: white;
+    color: var(--cor-letra-clara);
+    font-weight: 100;
+    white-space: nowrap;
   }
 
-.rectangle-104,
-.rectangle-104 * {
-  box-sizing: border-box;
-}
-.rectangle-104 {
-  transform: translate(0px, 45px);
-  border-radius: 40px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-  width: 273px;
-  height: 91px;
-  position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+#Button_Saiba_Mais {
+  margin-top: 12em;
+  height: 8em;
+  width: 20em;
+  background-color: var(--cor-secundaria); /* cor de fundo padrão */
+  color: var(--cor-letra-clara); /* cor do texto */
+  border-radius: 30px;
+  padding: 10px; /* espaçamento interno */
+  cursor: pointer; /* cursor do mouse */
+  border-color: var(--cor-terciaria);
+  box-shadow: none;
 }
 
-.saiba-mais2,
-.saiba-mais2 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #ffffff;
-  white-space: nowrap;
-}
-.saiba-mais2 {
-  transform: translate(75px, -15px);
-  color: #ffffff;
-  font: 400 24px var(--fonte-primaria);
-  position: relative;
-  width: 136px;
-  height: 27px;
-  white-space: nowrap;
+#Button_Saiba_Mais:hover {
+  background-color: rgba(95, 172, 135, 0.5); /* cor de fundo quando o mouse passa por cima */
+  color: var(--cor-fonte-clara); /* cor do texto quando o mouse passa por cima */
+  box-shadow: none;
 }
 
-.catalogo{
+.Saiba_Mais{
+  font-size: 24px;
+  font-family: var(--fonte-primaria);
+  font-weight: 50;
+}
+
+/* Quem Somos */
+.Title_Quem_Somos{
+  position: absolute;
+  top: 4em;
+  left: 37.5em;
+  font-family: var(--fonte-primaria);
+  margin: 0;
+  font-size: 24px;
+  color: var(--cor-letra-clara);
+  font-weight: 600;
+  }
+
+  .Quem_Somos_Text{
+    margin-top: 1em;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(400px, -115px);
-  }
-  
-  .catalogo {
-    font-family: var(--fonte-primaria);
-    margin: 0;
+    font-family: var(--fonte-primaria); 
     font-size: 24px;
-    color: white;
+    color: var(--cor-letra-clara);
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+#Button_Quem_Somos {
+  margin-top: 12em;
+  height: 8em;
+  width: 20em;
+  background-color: var(--cor-secundaria); /* cor de fundo padrão */
+  color: var(--cor-letra-clara); /* cor do texto */
+  border-radius: 30px;
+  padding: 10px; /* espaçamento interno */
+  cursor: pointer; /* cursor do mouse */
+  border-color: var(--cor-terciaria);
+  box-shadow: none;
+}
+
+#Button_Quem_Somos:hover {
+  background-color: rgba(95, 172, 135, 0.5); /* cor de fundo quando o mouse passa por cima */
+  color: var(--fonte-clara); /* cor do texto quando o mouse passa por cima */
+  box-shadow: none;
+}
+
+.Quem_Somos{
+  font-size: 24px;
+  font-family: var(--fonte-primaria);
+  font-weight: 50;
+}
+
+/* Catálogo Virtual */
+.Title_Catalogo{
+  position: absolute;
+  top: 4em;
+  left: 60em;
+  font-family: var(--fonte-primaria);
+  margin: 0;
+  font-size: 24px;
+  color: var(--cor-letra-clara);
+  font-weight: 600;
   }
 
-.rectangle-105,
-.rectangle-105 * {
-  box-sizing: border-box;
-}
-.rectangle-105 {
-  transform: translate(0px, 45px);
-  border-radius: 40px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-  width: 273px;
-  height: 91px;
-  position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  .Catalogo_Text{
+    margin-top: 1em;
+    position: absolute;
+    font-family: var(--fonte-primaria); 
+    font-size: 24px;
+    color: var(--cor-letra-clara);
+    font-weight: 100;
+    white-space: nowrap;
 }
 
-.download,
-.download * {
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #ffffff;
-  white-space: nowrap;
+#Button_Download {
+  margin-top: 12em;
+  height: 8em;
+  width: 20em;
+  background-color: var(--cor-secundaria); /* cor de fundo padrão */
+  color: var(--cor-letra-clara); /* cor do texto */
+  border-radius: 30px;
+  padding: 10px; /* espaçamento interno */
+  cursor: pointer; /* cursor do mouse */
+  border-color: var(--cor-terciaria);
+  box-shadow: none;
 }
-.download {
-    transform: translate(70px, -15px);
-    color: #ffffff;
-    font: 400 24px var(--fonte-primaria);
-    position: relative;
-    width: 136px;
-    height: 27px;
+
+#Button_Download:hover {
+  background-color: rgba(95, 172, 135, 0.5);/* cor de fundo quando o mouse passa por cima */
+  color: var(--cor-letra-clara); /* cor do texto quando o mouse passa por cima */
+  box-shadow: none;
+}
+
+.Download{
+  font-size: 24px;
+  font-family: var(--fonte-primaria);
+  font-weight: 50;
 }

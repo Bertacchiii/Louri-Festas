@@ -50,7 +50,7 @@
 }
 
 .Icone_Copo:hover {
-    background-color:  rgba(0, 250, 154);
+    background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .Icone_Prato:hover {
-    background-color:  rgba(0, 250, 154);
+    background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .Icone_Prato_Quadrado:hover {
-    background-color:  rgba(0, 250, 154);
+    background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .Icone_Cumbuca:hover {
-    background-color:  rgba(0, 250, 154);
+    background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
 
@@ -175,7 +175,7 @@
 }
 
 .Icone_Bandejas:hover {
-    background-color:  rgba(0, 250, 154);
+    background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
 
@@ -211,7 +211,7 @@
 }
 
 .Icone_Neon:hover {
-    background-color:  rgba(0, 250, 154);
+    background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
 
@@ -223,6 +223,7 @@
     font-weight: 600;
 }
 
+/* Divisória de Ícones */
 .Icone_Copo:after,
 .Icone_Prato:after,
 .Icone_Prato_Quadrado:after,

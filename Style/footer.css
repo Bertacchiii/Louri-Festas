@@ -249,7 +249,7 @@
 
 .Faixa_divisoria{
     display: flex;
-    width: 116.4em; 
+    width: 129.30em; 
     height: 0px; 
     border: 1px #3D8361 solid;
 }
@@ -261,7 +261,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 116.5em;
+    width: 129.41em;
     background-color: var(--cor-primaria);
     /* padding: 4px; */
     text-decoration: none;
