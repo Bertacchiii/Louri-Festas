@@ -1,91 +1,106 @@
+footer {
+    background: var(--cor-terciaria);
+}
+
 .footer-top-wrapper {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-top:  auto;
     padding: 1em;
+    align-items: center;
+    
     
 }
-/* Logo do Footer */
+
 .Logo_Footer{
-    position: flex;
-    top: 150em;
-    left: 5em;
-    width: 17.5em;
-    margin-bottom: 0.938em;
+    width: 15vw;
 }
 
 /* Aba Nossa Sede */
 .Nossa_Sede_Main{
-    display: flex;
     font-family: var(--fonte-primaria);
     white-space: pre-line;
-    margin-top: 5em;
     color: var(--cor-letra-escura);
 }
 
 .Nossa_Sede_Texto{
-    
+    font-size: 0.96vw;
     
 }
 
 .Endereço{
 
-
 }
 
-.Icon_Endereço{
-    display:flex
+.Icon_Endereço i{
+    position: relative;
+    top: -4em;
+    left: -1.25em;
 }
+
+/* funfo */
 
 /* Aba de Contatos PRT 1*/
 .Contato_Main{
-    display: flex;
-    align-items: center;
-    justify-content: left;
     font-family: var(--fonte-primaria);
     white-space: pre-line;
-    margin-top: -8em;
     color: var(--cor-letra-escura);
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
 }
 
 .Contato_Texto{
-    display: flex;
-    
+    font-size: 0.96vw;
+    top:-0.5em;
+    position: relative;
 }
 
 .Contato{
-
+    position: relative;
+    bottom: -1em;
 
 }
 
 .Icon_Contato{
-    display: flex;
-    align-items: left;
-
+    position: relative;
+    top: -2.8em;
+    left: -1.5em;
 
 }
 
 /* Aba de Contatos PRT 2 */
 .Contato_WhatsApp{
-    display: flex;
-    align-items: left;
-    justify-content: left;
     font-family: var(--fonte-primaria);
-    white-space: pre-line;
-    margin-top: 5em;
+    /* white-space: pre-line; */
     color: var(--cor-letra-escura);
+    
 }
 
 .Contato_WhatsApp_Texto{
-
+    top: -1.875em;
+    position: relative;
 
 }
 
 .Icon_WhatsApp{
+    position: relative;
+    top: -4.90em;
+    left: -1.5em;
 
-    
+}
+
+.Traco_Footer{
+    width: 3.0vw; 
+    height: 0.17vw; 
+    border: 1px var(--cor-primaria) solid;
+    border-radius: 15px;
+    background-color:var(--cor-primaria);
+    left: -1.43em;
+    position: relative;
+}
+
+.Contato_WhatsApp div{
+    top: -1.8em;
 }
 
 
