@@ -24,11 +24,9 @@
     font-family: var(--fonte-primaria);
 }
 
+
 html{
     scroll-behavior: smooth;
+    background-color:var(--cor-terciaria);
+    overflow-x: hidden;
 } 
-
-.body{
-    background-color: var(--cor-terciaria);
-    z-index: 1;
-}

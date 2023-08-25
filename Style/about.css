@@ -13,7 +13,7 @@
   background: #3d8361;
   width: 129.41em;
   height: 30em;
-  margin-top: 80px;
+  margin-top: 5em;
 }
 
 /* Desde 2005 */
@@ -23,7 +23,7 @@
     left: 10em;
     font-family: var(--fonte-primaria);
     margin: 0;
-    font-size: 24px;
+    font-size: 1.28vw;
     color: var(--cor-letra-clara);
     font-weight: 600;
   }
