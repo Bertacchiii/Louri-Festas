@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
     margin-top: 0.5em;
 }
 
@@ -36,8 +35,9 @@
 .Texto_Qualidade{
     font-family: var(--fonte-primaria);
     color: var(--cor-terciaria);
-    transform: translate(2em, 3.3em);
-    font-size: 1.3vw;
+    transform: translate(2em, 2.5em);
+    font-size: 1.5vw;
     font-weight: 100;
-    white-space: nowrap;
+    white-space: pre-line;
+    max-width: 25.0em;
 }
