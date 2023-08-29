@@ -15,7 +15,6 @@ footer {
     width: 15vw;
 }
 
-/* Aba Nossa Sede */
 .Nossa_Sede_Main{
     font-family: var(--fonte-primaria);
     white-space: pre-line;
@@ -38,9 +37,6 @@ footer {
     font-size: 20px;
 }
 
-/* funfo */
-
-/* Aba de Contatos PRT 1*/
 .Contato_Main{
     font-family: var(--fonte-primaria);
     white-space: pre-line;
@@ -66,10 +62,8 @@ footer {
     font-size: 20px;
 }
 
-/* Aba de Contatos PRT 2 */
 .Contato_WhatsApp{
     font-family: var(--fonte-primaria);
-    /* white-space: pre-line; */
     color: var(--cor-letra-escura);
     font-size: 0.90vw;
 }
