@@ -31,10 +31,10 @@
   color: var(--cor-letra-clara);
   border-radius: 30px;
   border: 2px solid var(--cor-terciaria);
-  padding: 1.3em;
+  padding: 1.5em;
   text-align: center;
-  font-size: 1.vw;
-  font-weight: 100;
+  font-size: 1.2vw;
+  font-weight: 600;
   cursor: pointer;
   justify-content: center;
   box-shadow: none;
@@ -46,9 +46,10 @@
   transition: 0.5s;
 }
 
-
-
-
+.teste{
+  text-size-adjust: testes;
+}
+/* teste s adasdadadadadadasda*/
 
 
 
