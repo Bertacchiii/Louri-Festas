@@ -1,0 +1,233 @@
+.Informações_Main{
+  display: flex;
+  background-color: #3d8361;
+  margin-top: 2em;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25vw;
+}
+
+.Container_Main{
+  font-family: var(--fonte-primaria);
+  color: var(--cor-letra-clara);
+  
+}
+
+.Titulo_About{
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-bottom: 1.87em; 
+}
+
+.Texto_About{
+  font-size: 1.2vw;
+  font-weight: 300;
+  max-width: 18.75em;
+}
+
+.Button_About{
+  display: flex;
+  text-decoration: none;
+  color: var(--cor-letra-clara);
+  border-radius: 30px;
+  border: 2px solid var(--cor-terciaria);
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: none;
+  margin-top: 2em;
+}
+
+.Button_About:hover{
+  background-color: var(--cor-quartenaria);
+  transition: 0.5s;
+}
+
+.teste{
+  text-size-adjust: testes;
+}
+/* teste s adasdadadadadadasda*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.Informações_Main {
+     /* position: relative; */
+    /* z-index: 0;  */
+    /* align-items: center; */
+    /* background-color: #3d8361; */
+  /* }  */
+
+/* .Background_Main,
+.Background_Main * {
+  /* box-sizing: border-box;
+  position: relative; */
+  /* margin-top: 3em;
+}
+.Background_Main {
+  background: #3d8361;
+  width: 129.41em;
+  height: 30em;
+  margin-top: 5em;
+} */ 
+
+/* Desde 2005 */
+/* .Title_Desde {
+    position: absolute;
+    top: 4em;
+    left: 10em;
+    font-family: var(--fonte-primaria);
+    margin: 0;
+    font-size: 1.28vw;
+    color: var(--cor-letra-clara);
+    font-weight: 600;
+  } */
+
+/* .Desde_Text{
+    margin-top: 1em;
+    /* position: absolute; */
+    /* font-family: var(--fonte-primaria); 
+    font-size: 24px;
+    color: var(--cor-letra-clara);
+    font-weight: 100;
+    white-space: nowrap;
+  } */ 
+
+/* #Button_Saiba_Mais {
+  margin-top: 12em;
+  height: 8em;
+  width: 20em;
+  background-color: var(--cor-secundaria); /* cor de fundo padrão */
+  /* color: var(--cor-letra-clara); /* cor do texto */
+  /* border-radius: 30px;
+  padding: 10px; /* espaçamento interno */
+  /* cursor: pointer; /* cursor do mouse */
+  /* border-color: var(--cor-terciaria);
+  box-shadow: none;
+} */ 
+
+/* #Button_Saiba_Mais:hover {
+  /* background-color: rgba(95, 172, 135, 0.5); /* cor de fundo quando o mouse passa por cima */
+  /* color: var(--cor-fonte-clara); cor do texto quando o mouse passa por cima */
+  /* box-shadow: none; */
+/* } */  
+
+/* .Saiba_Mais{
+  font-size: 24px;
+  font-family: var(--fonte-primaria);
+  font-weight: 50;
+} */
+
+/* Quem Somos */
+/* .Title_Quem_Somos{ */
+  /* position: absolute;
+  top: 4em;
+  left: 37.5em; */
+  /* font-family: var(--fonte-primaria);
+  margin: 0;
+  font-size: 24px;
+  color: var(--cor-letra-clara);
+  font-weight: 600;
+  } */
+
+  /* .Quem_Somos_Text{
+    margin-top: 1em;
+    position: absolute;
+    font-family: var(--fonte-primaria); 
+    font-size: 24px;
+    color: var(--cor-letra-clara);
+    font-weight: 100;
+    white-space: nowrap;
+} */
+
+/* #Button_Quem_Somos {
+  margin-top: 12em;
+  height: 8em;
+  width: 20em;
+  background-color: var(--cor-secundaria); cor de fundo padrão */
+  /* color: var(--cor-letra-clara); /* cor do texto */
+  /* border-radius: 30px;
+  padding: 10px; /* espaçamento interno */
+  /* cursor: pointer; /* cursor do mouse */
+  /* border-color: var(--cor-terciaria);
+  box-shadow: none;
+} */ 
+
+/* #Button_Quem_Somos:hover {
+  background-color: rgba(95, 172, 135, 0.5); /* cor de fundo quando o mouse passa por cima */
+  /* color: var(--fonte-clara); /* cor do texto quando o mouse passa por cima */
+  /* box-shadow: none;
+} */ 
+
+/* .Quem_Somos{
+  font-size: 24px;
+  font-family: var(--fonte-primaria);
+  font-weight: 50;
+} */
+
+/* Catálogo Virtual */
+/* .Title_Catalogo{
+  position: absolute;
+  /* top: 4em;
+  left: 60em; */
+  /* font-family: var(--fonte-primaria);
+  margin: 0;
+  font-size: 24px;
+  color: var(--cor-letra-clara);
+  font-weight: 600;
+  } */ 
+
+  /* .Catalogo_Text{
+    margin-top: 1em;
+    position: absolute;
+    font-family: var(--fonte-primaria); 
+    font-size: 24px;
+    color: var(--cor-letra-clara);
+    font-weight: 100;
+    white-space: nowrap;
+} */
+
+/* #Button_Download {
+  margin-top: 12em;
+  height: 8em;
+  width: 20em;
+  background-color: var(--cor-secundaria); /* cor de fundo padrão */
+  /* color: var(--cor-letra-clara); /* cor do texto */
+  /* border-radius: 30px;
+  padding: 10px; /* espaçamento interno */
+  /* cursor: pointer; /* cursor do mouse */
+  /* border-color: var(--cor-terciaria);
+  box-shadow: none;
+} */ 
+
+/* #Button_Download:hover {
+  background-color: rgba(95, 172, 135, 0.5);/* cor de fundo quando o mouse passa por cima */
+  /* color: var(--cor-letra-clara); /* cor do texto quando o mouse passa por cima */
+  /* box-shadow: none;
+} */
+
+/* .Download{
+  font-size: 24px;
+  font-family: var(--fonte-primaria);
+  font-weight: 50;
+} */
