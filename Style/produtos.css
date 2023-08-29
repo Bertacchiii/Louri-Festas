@@ -1,11 +1,9 @@
-.Main_Produtos_Text{
+.Container_Produtos_Text{
     font-family: var(--fonte-primaria);
-    margin-left:  8em;
-    margin-top: 10em;
     white-space: pre-line;
-    display: flex;
+    margin-left: 9em;
+    margin-bottom: 2em;
 }
-
 
 .Título_Produtos{
     font-weight: 600;
@@ -13,52 +11,73 @@
 }
 
 .Texto_Sobre_Produtos{
-    font-size: 1.28vw;
-    margin-top: 2em;
-    margin-left: -6.80em;
     font-weight: 100;
+    font-size: 1.28vw;
 }
 
-.Main_Produtos {
+.Container_Produtos{
+    margin-bottom: 3em;
     display: flex;
-    flex-direction:row;
-    padding: 1em;
+    flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 4.37em;
-    background-color: var(--cor-secundaria);
-    border-radius: 1.75em;
-    margin: 7em;
-    margin-left: 8.75em;
+    
 }
 
-/* .Icone_Neon:hover {
+.Container_Produtos ul{
+    border-radius: 1.75em;
+    background-color: var(--cor-secundaria);
+    
+    justify-content: center;
+    /* width: 65.5%; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Container_Produtos ul li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 18.75em;
+    width: 12.5em;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.Container_Produtos ul li:after {
+    content: "";
+    position: relative;
+    width: 1px;
+    height: 80%;
+    background-color: var(--cor-letra-clara);
+}
+
+.Container_Produtos ul li:last-child::after {
+    display: none; 
+}
+
+.Container_Produtos ul li a{
+    text-decoration: none;
+    color: var(--cor-letra-clara);
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 1rem;
+}
+
+.Container_Produtos ul li a img{
+    min-height: 90px;
+    max-width: 100px;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.Container_Produtos ul li:hover{
     background-color: rgba(95, 172, 135, 0.5);
     cursor: pointer;
 }
-
-.Neon_Texto{ 
-    font-family: var(--fonte-primaria);
-    margin-top: 13em;
-    margin-left: -8em;
-    color: var(--cor-terciaria);
-    font-weight: 600; */
-
-
-/* Divisória de Ícones */
-/* .Icone_Copo:after,
-.Icone_Prato:after,
-.Icone_Prato_Quadrado:after,
-.Icone_Cumbuca:after,
-.Icone_Bandejas:after { */
-    /* content: " ";
-    display: flex;
-    width: 0.01em; 
-    height: 25.938em; 
-    background-color: var(--cor-terciaria); 
-    position: absolute;
-    right: -2em; 
-    top: 0; */
-/* } */
