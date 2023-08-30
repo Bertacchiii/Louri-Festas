@@ -17,7 +17,6 @@
     position: relative;
     right: 5%;  
     z-index: -1;  
-    
 }
 
 .Titulo_Carrossel{
@@ -41,6 +40,4 @@
 
 #Faixa_Banner{
     bottom: 30px;
-    
 }
-/* analisar desalinhamento do banner */

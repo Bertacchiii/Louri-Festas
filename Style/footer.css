@@ -6,9 +6,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 1em;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 
 .Logo_Footer{
@@ -24,10 +22,6 @@ footer {
 .Nossa_Sede_Texto{
     font-size: 18px;
     
-}
-
-.Endereço{
-
 }
 
 .Icon_Endereço i{
@@ -121,6 +115,3 @@ footer {
     text-decoration: none;
     font-size: 0.85vw;
 }
-
-
-
