@@ -1,0 +1,440 @@
+/* ------Header--------- */
+
+.Container_Header{
+    background-color: var(--cor-primaria);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    position: fixed;
+ }
+ 
+ .Container_Header header{
+     max-width: auto;
+     margin: 0em 3em 0 3em;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     
+ }
+ 
+ .Logo_Header{
+     width: 6vw;
+     margin-left: 0.5em;
+ }
+ 
+ .navegacao nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 700;
+    font-family: var(--fonte-primaria);
+    
+ }
+ 
+ .navegacao nav ul a{
+     margin: 0.2em;
+ }
+ 
+ .Texto_Header{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-weight: 580;
+ }
+ 
+ .Icones_Header{
+     color:var(--cor-terciaria);
+     font-size: 1.9em;
+ }
+ 
+ .Menu_Header{
+     color:var(--cor-terciaria);
+     font-size: 1.5vw;
+ }
+ 
+ .Header_Logo{
+     align-items: center;
+     display: flex;
+ }
+ 
+ .Traco{
+     margin-left: 1em;
+     width: 0.04vw; 
+     height: 1.6vw; 
+     border: 1px #ffffff solid;
+     border-radius: 15px;
+     background-color:var(--cor-terciaria);
+     align-items: center;
+ }
+ 
+ .Menu_Header:hover{
+     color: var(--cor-quintenaria);
+     transition: .3s;
+ }
+ 
+ .navegacao nav ul a:hover{
+     color: var(--cor-quintenaria);
+     transition: .3s;
+ }
+ 
+ .Traco:hover{
+     border: 1px var(--cor-quintenaria) solid;
+     transition: .3s;
+ }
+
+/* -----------BANNER---------- */
+
+.Main_Carrossel{
+    margin: 8%  0  2em  0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Img_Carrossel img{
+    width: 36vw;
+}
+
+.Quadro_Carrossel{
+    background-color: var(--cor-secundaria);
+    width: 35vw;
+    height: 27vw;
+    border-radius: 28px;
+    position: relative;
+    right: 5%;  
+    z-index: -1;  
+    
+}
+
+.Titulo_Carrossel{
+    text-align: left;
+    margin: 1.5em 0 1em 3.5em;
+    color:var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2vw; 
+    font-weight: 580;
+}
+
+.Texto_Carrossel{
+    text-align: left;
+    color:var(--cor-terciaria);
+    margin: 0 0 0.5em 4.5em;
+    font-family: var(--fonte-primaria);
+    font-size: 1.6vw;
+    font-weight: 100;
+    margin-right: 7em;
+}
+
+#Faixa_Banner{
+    bottom: 30px;
+    
+}
+/* analisar desalinhamento do banner */
+
+/* ------------PRODUTOS------------- */
+
+.Container_Produtos_Text{
+    font-family: var(--fonte-primaria);
+    white-space: pre-line;
+    margin-left: 9em;
+    margin-bottom: 2em;
+}
+
+.Título_Produtos{
+    font-weight: 600;
+    font-size: 1.93vw;
+}
+
+.Texto_Sobre_Produtos{
+    font-weight: 100;
+    font-size: 1.28vw;
+}
+
+.Container_Produtos{
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.Container_Produtos ul{
+    border-radius: 1.75em;
+    background-color: var(--cor-secundaria);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+
+.Container_Produtos ul li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 16.094vw;
+    width: 85%;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.Container_Produtos ul li:after {
+    content: "";
+    position: relative;
+    width: 1px;
+    height: 80%;
+    background-color: var(--cor-letra-clara);
+}
+
+.Container_Produtos ul li:last-child::after {
+    display: none; 
+}
+
+.Container_Produtos ul li a{
+    text-decoration: none;
+    color: var(--cor-letra-clara);
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 1rem;
+}
+
+.Container_Produtos ul li a img{
+    min-height: 4.828vw;
+    max-width: 5.365vw;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.Container_Produtos ul li:hover{
+    background-color: rgba(95, 172, 135, 0.5);
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* ----------QUALIDADE---------------- */
+
+.Main_Qualidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.Background_Fabrica{
+    z-index: -1;
+    left: 2em;
+    
+}
+.Background_Fabrica img{
+    width: 45vw;
+}
+
+.Quadro_Qualidade{
+    position: relative;
+    width: 43vw; 
+    height: 31vw; 
+    background: #3D8361; 
+    border-radius: 1.75em;
+    z-index: 1;
+    right: -2em;
+}
+
+.Titulo_Qualidade{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    font-size: 2vw;
+    transform: translate(1.5em, 0.9em);
+    font-weight: 600;
+}
+
+.Texto_Qualidade{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    transform: translate(2em, 2.5em);
+    font-size: 1.5vw;
+    font-weight: 100;
+    white-space: pre-line;
+    max-width: 25.0em;
+}
+
+/* -------------ABOUT------------------ */
+
+.Informações_Main{
+    display: flex;
+    background-color: #3d8361;
+    margin-top: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25vw;
+  }
+  
+  .Container_Main{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra-clara);
+    
+  }
+  
+  .Titulo_About{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-bottom: 1.87em; 
+  }
+  
+  .Texto_About{
+    font-size: 1.2vw;
+    font-weight: 300;
+    max-width: 18.75em;
+  }
+  
+  .Button_About{
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-letra-clara);
+    border-radius: 30px;
+    border: 2px solid var(--cor-terciaria);
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: center;
+    box-shadow: none;
+    margin-top: 2em;
+  }
+  
+  .Button_About:hover{
+    background-color: var(--cor-quartenaria);
+    transition: 0.5s;
+  }
+
+  /* --------------FOOTER------------- */
+
+  footer {
+    background: var(--cor-terciaria);
+}
+
+.footer-top-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    align-items: center;
+    
+    
+}
+
+.Logo_Footer{
+    width: 15vw;
+}
+
+.Nossa_Sede_Main{
+    font-family: var(--fonte-primaria);
+    white-space: pre-line;
+    color: var(--cor-letra-escura);
+}
+
+.Nossa_Sede_Texto{
+    font-size: 18px;
+    
+}
+
+.Icon_Endereço i{
+    position: relative;
+    top: -4em;
+    left: -1.25em;
+    font-size: 20px;
+}
+
+.Contato_Main{
+    font-family: var(--fonte-primaria);
+    white-space: pre-line;
+    color: var(--cor-letra-escura);
+    display: flex;
+    
+}
+
+.Contato_Texto{
+    font-size: 18px;
+}
+
+.Contato{
+    font-size: 16px;
+    
+
+}
+
+.Icon_Contato{
+    position: relative;
+    top: 1.6em;
+    left: -7.2em;
+    font-size: 20px;
+}
+
+.Contato_WhatsApp{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra-escura);
+    font-size: 0.90vw;
+}
+
+.Contato_WhatsApp_Texto{
+    top: -0.25em;
+    position: relative;
+    font-size: 16px;
+
+}
+
+.Icon_WhatsApp{
+    position: relative;
+    top: 1.4em;
+    left: -6.0em;
+    font-size: 24px;
+}
+
+.Traco_Footer{
+    width: 3.0vw; 
+    height: 0.17vw; 
+    border: 1px var(--cor-primaria) solid;
+    border-radius: 15px;
+    background-color:var(--cor-primaria);
+    left: -1.43em;
+    position: relative;
+}
+
+.Contato_WhatsApp div{
+    top: -1.8em;
+}
+
+.Faixa_divisoria{
+    display: flex;
+    width: 129.30em; 
+    height: 0px; 
+    border: 0.3px #3D8361 solid;
+    
+}
+
+.footer-bottom {
+    height: 3.75em;
+    margin-top: 3em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.copyright{
+    font-family: var(--fonte-primaria);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.85vw;
+}
+
+
+
