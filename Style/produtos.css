@@ -57,6 +57,12 @@
     display: none; 
 }
 
+@media (max-width: 415px) {
+    .Container_Produtos ul li::after {
+        display: none; 
+    }
+}
+
 .Container_Produtos ul li a{
     text-decoration: none;
     color: var(--cor-letra-clara);
