@@ -2,6 +2,6 @@
 
 <p>Feito por:
 
-Bertachii: https://github.com/Bertacchiii
+Bertachii: https://github.com/Bertacchiii<br>
 Xaauu: https://github.com/XaauuziN
 </p>
