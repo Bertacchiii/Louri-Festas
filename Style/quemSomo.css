@@ -15,7 +15,7 @@
 .Main_QuemSomos2{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
-    padding-top: 8em;
+    padding: 4em;
     display: flex;
     justify-content: center;
     gap: 5em    
@@ -49,9 +49,9 @@
     
 }
 
-.Container_Img2{
+/* .Container_Img2{
     
-}
+} */
 
 .Main_Equipe{
     display: flex;
