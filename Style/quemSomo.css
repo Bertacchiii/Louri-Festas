@@ -1,10 +1,15 @@
+.body{
+    background-color: var(--cor-terceiaria);
+}
+
 .Main_QuemSomos{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
     padding-top: 8em;
     display: flex;
-    justify-content: center; 
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5em;
+    
 }
 
 .Main_QuemSomos2{
@@ -12,37 +17,41 @@
     color: var(--cor-secundaria);
     padding-top: 8em;
     display: flex;
-    justify-content: center; 
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5em    
 }
 
 .Container_Paragrafo{
+    display: flex;
+    flex-direction: column;
     padding: 2em;
-    width: 724px; 
-    height: 724px;
+    width: 30%; 
+    height: 30%;
     font-size: 26px;
     font-weight: 100; 
 }
 
 .Titulo_QuemSomos{
     color: var(--cor-letra-escura);
-    font-size: 35px;
+    font-size: 1.8vw;
     font-weight: 600;
 }
 
 .Texto_QuemSomos{
-    font-size: 26px;
+    font-size: 1.5vw;
     font-weight: 100;
     padding-top: 1em;
 }
 
 .Container_Img1{
     padding-top: 8em;
+    /* width: 2000px; */
+    
 }
 
-/* .Container_Img2{
+.Container_Img2{
     
-} */
+}
 
 .Main_Equipe{
     display: flex;
@@ -50,8 +59,7 @@
     gap: 10em;
     color: var(--cor-primaria);
     font-weight: 600;
-    font-size: 25px;
-    padding-top: 2em;
+    font-size: 1.5vw;
     padding: 2em;
 }
 
@@ -63,5 +71,6 @@
 }
 
 .Img_Equipe{
+    width: 26.6vw;
     
 }
