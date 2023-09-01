@@ -1,0 +1,68 @@
+.Main_QuemSomos{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    padding-top: 8em;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+}
+
+.Main_QuemSomos2{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    padding-top: 8em;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+}
+
+.Container_Paragrafo{
+    padding: 2em;
+    width: 724px; 
+    height: 724px;
+    font-size: 26px;
+    font-weight: 100; 
+}
+
+.Titulo_QuemSomos{
+    color: var(--cor-letra-escura);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Texto_QuemSomos{
+    font-size: 26px;
+    font-weight: 100;
+    padding-top: 1em;
+}
+
+.Container_Img1{
+    padding-top: 8em;
+}
+
+/* .Container_Img2{
+    
+} */
+
+.Main_Equipe{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 2em;
+    padding: 2em;
+    font-family: var(--fonte-primaria);
+}
+
+.Pontos{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    padding-top: 1.5em;
+}
+
+/* .Img_Equipe{
+    
+} */
