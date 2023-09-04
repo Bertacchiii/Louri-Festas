@@ -15,10 +15,10 @@
 .Main_QuemSomos2{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
-    padding: 4em;
+    padding: 0 4em 4em 4em;
     display: flex;
     justify-content: center;
-    gap: 5em    
+    gap: 1em    
 }
 
 .Container_Paragrafo{
@@ -61,6 +61,7 @@
     font-weight: 600;
     font-size: 1.5vw;
     padding: 2em;
+    font-family: var(--fonte-primaria);
 }
 
 .Pontos{
