@@ -40,24 +40,42 @@
     padding: 0.5em;
 }
 
+.Envio_Contatos form input label{
+    font-size: 1vw;
+}
+
 .Botao_Enviar{
-    border-radius: 30px;
     width: 240px;
-    height: 60px;
-    
+    height: 70px;  
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    border-radius: 5px;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: center;
+    box-shadow: none;
+    margin-top: 2em;
+}
+
+.Botao_Enviar:hover{
+    background-color: var(--cor-secundaria);
+    transition: 0.4s;
 }
 
 /* Informações de Contatos */
 .Container_Informacoes{
     font-family: var(--fonte-primaria);
     padding-top: 12em;
-    float: center;
-    
+    float: center;   
 }
 
-.Informacoes1{
+/* .Informacoes1{
     
-}
+} */
 
 .Siga{
     font-size: 1.2vw;
@@ -89,14 +107,15 @@
 }
 
 .Contato_Telefone{
-    font-size: 0.9vw;
+    font-size: 1vw;
     font-weight: 500;
     font-style: italic;
+    padding-top: 3em;
 }
 
 .Contato_WhatsApp{
     padding-top: 1em;
-    font-size: 0.9vw;
+    font-size: 1vw;
     font-weight: 500;
     font-style: italic;
 }
@@ -127,6 +146,7 @@
 .Visite{
     font-size: 1.0vw;
     font-weight: 200;
+    padding-top: 3em;
 }
 
 .Endereço{
@@ -139,6 +159,46 @@
     color: var(--cor-primaria);
     font-size: 1.3vw;
     position: relative;
-    top: -1em;
+    top: -1.5em;
     left: -1.6em;
+}
+
+/* Befores */
+
+.Traco_Titulo{
+    width: 112px; 
+    height: 5px; 
+    background: #1C6758;
+    border-radius: 30px;
+    position: relative;
+    top: 0.5em;
+}
+
+.Traco_Info3{
+    width: 112px; 
+    height: 5px; 
+    background: #1C6758;
+    border-radius: 30px;
+    position: relative;
+    left: -2.5em;
+}
+
+.Traco_Info4{
+    width: 112px; 
+    height: 5px; 
+    background: #1C6758;
+    border-radius: 30px;
+    position: relative;
+    top: 1em;
+    left: -2.5em;
+}
+
+.Traco_Info5{
+    width: 112px; 
+    height: 5px; 
+    background: #1C6758;
+    border-radius: 30px;
+    position: relative;
+    top: 1.5em;
+    left: -2.5em;
 }
