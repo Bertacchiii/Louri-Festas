@@ -1,0 +1,144 @@
+/* Formulário */
+/* .main{
+    display: flex;
+    flex-direction: row;
+} */
+
+.Container_Contatos{
+    font-family: var(--fonte-primaria);
+    padding: 7em;
+    float: left;
+    width: 50%;
+}
+
+.Titulo_Contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.Texto{
+    font-size: 1.2vw;
+    font-weight: 100;
+    padding-top: 2em;
+}
+
+.Envio_Contatos form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    width: 37.2vw;
+    height: 26.6vw;
+}
+
+.Envio_Contatos form input{
+    font-weight: 400;
+    padding: 0.5em;
+}
+
+.Botao_Enviar{
+    border-radius: 30px;
+    width: 240px;
+    height: 60px;
+    
+}
+
+/* Informações de Contatos */
+.Container_Informacoes{
+    font-family: var(--fonte-primaria);
+    padding-top: 12em;
+    float: center;
+    
+}
+
+.Informacoes1{
+    
+}
+
+.Siga{
+    font-size: 1.2vw;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.Redes{
+    font-size: 1.2vw;
+    padding-top: 0.5em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Img_Info{
+    padding-top: 2em;
+}
+
+.Outras_Formas{
+    font-size: 1.0vw;
+    font-style: italic;
+    padding-top: 2em;
+}
+
+.Informacoes2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+.Contato_Telefone{
+    font-size: 0.9vw;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.Contato_WhatsApp{
+    padding-top: 1em;
+    font-size: 0.9vw;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.Phone_Icon,
+.Whatsapp_Icon{
+    color: var(--cor-primaria);
+    font-size: 1.3vw;
+    position: relative;
+    top: -3.4em;
+    left: -2.1em;
+    padding: 0.5em;
+}
+
+.Email_Text{
+    font-size: 1.0vw;
+    font-style: italic;
+    font-weight: 600;
+}
+.Icon_Email{
+    color: var(--cor-primaria);
+    position: relative;
+    font-size: 1.3vw;
+    top: -1em;
+    left: -1.6em
+}
+
+.Visite{
+    font-size: 1.0vw;
+    font-weight: 200;
+}
+
+.Endereço{
+    font-size: 1vw;
+    font-weight: 200;
+    padding-top: 3em;
+}
+
+.Loc_Icon{
+    color: var(--cor-primaria);
+    font-size: 1.3vw;
+    position: relative;
+    top: -1em;
+    left: -1.6em;
+}
