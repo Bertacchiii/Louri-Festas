@@ -6,7 +6,8 @@
 
 .Container_Contatos{
     font-family: var(--fonte-primaria);
-    padding: 7em;
+    padding-left: 10em;
+    padding-top: 3em;
     float: left;
     width: 50%;
 }
@@ -27,6 +28,12 @@
     padding-top: 2em;
 }
 
+.Envio_Contatos{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 1em;
+}
+
 .Envio_Contatos form{
     display: flex;
     flex-direction: column;
@@ -38,7 +45,21 @@
 .Envio_Contatos form input{
     font-weight: 400;
     padding: 0.5em;
+    margin-right: 0;
+    margin-bottom: 2.1em; 
 }
+
+.Envio_Contatos form textarea {
+    width: 99.1%;
+    min-height: 200px; 
+    max-height: 800px; 
+    resize: vertical;
+  }
+  
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
 
 .Envio_Contatos form input label{
     font-size: 1vw;
@@ -69,7 +90,8 @@
 /* Informações de Contatos */
 .Container_Informacoes{
     font-family: var(--fonte-primaria);
-    padding-top: 12em;
+    padding-left: 10em;
+    padding-top: 10em;
     float: center;   
 }
 
@@ -164,7 +186,6 @@
 }
 
 /* Befores */
-
 .Traco_Titulo{
     width: 112px; 
     height: 5px; 
