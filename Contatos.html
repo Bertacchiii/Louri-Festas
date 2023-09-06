@@ -44,22 +44,24 @@
             </div>
             <div class="Envio_Contatos">
                 <form action="https://formsubmit.co/rodrigobertacchi@gmail.com" method="POST">
-                    <input type="text" name="name" placeholder="Nome" required>
-                    <input type="email" name="email" placeholder="E-mail" required>
-                    <input type="text" name="Cidade" placeholder="Cidade">
-                    <input type="tel" name="Telefone" placeholder="Telefone">
-                    <input type="tel" name="Celular" placeholder="Celular">
+                    <input type="text" maxlength="30" name="name" placeholder="Nome" required>
+                    <input type="email" maxlength="30" name="email" placeholder="E-mail" required>
+                    <input type="text" maxlength="50" name="Cidade" placeholder="Cidade">
+                    <input type="tel" maxlength="15" name="Telefone" placeholder="Telefone">
+                    <input type="tel" maxlength="15" name="Celular" placeholder="Celular">
 
-                    <input type="text" name="Assunto" placeholder="Assunto" required >
+                    <input type="text" maxlength="50" name="Assunto" placeholder="Assunto" required >
 
                     <input type="hidden" name="_subject" value="Novo Contato" placeholder="Assunto" required>
                     <input type="text" name="_honey" style="display:none">
                     <input type="hidden" name="_captcha" value="false">
 
-                    <textarea name="message" id="message" cols="5" rows="3" placeholder="Mensagem" required></textarea>
+                    <textarea name="message" maxlength="700" id="message" cols="5" rows="3" placeholder="Mensagem" required></textarea>
                     
+                    <div class="Teste">
                     <input type="checkbox" id="Termos" required>
                     <label for="Termos">Li e concordo com a Política de privacidade</label>
+                    </div>   
 
                     <button type="submit" class="Botao_Enviar">Enviar Mensagem >>></button>
                </form>
@@ -71,8 +73,8 @@
                 <p class="Siga">Siga-nos nas</p>
                 <p class="Redes">midias sociais</p>
                 <div class="Img_Info">
-                <img src="img/SVG/facebook.svg" alt="Facebook" style="width: 4.7vw;">
-                <img src="img/SVG/instagram.svg" alt="Instagram" style="width: 4.7vw;">
+                <a href="https://www.facebook.com/lourifestas"><img src="img/SVG/facebook.svg" alt="Facebook" style="width: 4.7vw;"></a>
+                <a href="https://www.instagram.com/lourifestas/"><img src="img/SVG/instagram.svg" alt="Instagram" style="width: 4.7vw;"></a>
                 </div>
 
                 <p class="Outras_Formas">OUTRAS FORMAS DE CONTATO</p>
@@ -107,7 +109,7 @@
             </div>
         </div>
         </section>
-    
+        <div class="Faixa_divisoria"></div>
         <!-- Footer -->
         <footer>   
             <section class="footer-top-wrapper">
