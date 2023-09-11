@@ -1,7 +1,8 @@
 .Container_Grid{
     display: grid;
-    grid-template-columns:  70% 69.1vw 70%;
-    padding: 15em;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 10fr));
+    gap: 15em;
+    padding: 7em;
 }
 
 .Container_Contatos{
@@ -41,10 +42,12 @@
 }
 
 .Envio_Contatos form textarea {
-    width: 97.9%;
+    width: 96.4%;
+    min-width: 96.4%;
+    max-width: 96.4%;
     min-height: 25.6vw; 
     max-height: 26.0vw; 
-    resize: vertical;
+    resize:none;
   }
 
 .Envio_Contatos form label{
@@ -53,9 +56,7 @@
 
   .Teste{
     margin-top: 1.5em;
-    gap: 0.5em;
     text-align: center;
-    justify-content: center;
     font-size: 1.6vw;
 }
 
@@ -88,7 +89,7 @@
 /* Informações de Contatos */
 .Container_Informacoes{
     font-family: var(--fonte-primaria);
-    padding-top: 3.5em;
+    padding-top: 5.5em;
 }
 
 .Siga{
@@ -161,6 +162,7 @@
     font-size: 1.0vw;
     font-weight: 200;
     padding-top: 1em;
+    margin-bottom: 1em;
 }
 
 .Endereço{
@@ -192,7 +194,6 @@
     height: 0.26vw; 
     background: #1C6758;
     border-radius: 30px;
-    position: relative;
     left: -2.5em;
     top: 1em;
 }
@@ -202,7 +203,6 @@
     height: 0.26vw; 
     background: #1C6758;
     border-radius: 30px;
-    position: relative;
     top: -0.5em;
     left: -2.5em;
 }
@@ -212,7 +212,6 @@
     height: 0.26vw; 
     background: #1C6758;
     border-radius: 30px;
-    position: relative;
     top: 1.9em;
     left: -2.5em;
 }
