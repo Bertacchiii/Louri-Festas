@@ -316,87 +316,47 @@
 
   /* --------------FOOTER------------- */
 
-  .Main_Footer{
+.Main_Footer{
     font-family: var(--fonte-primaria);
     font-size: 1vw;
     font-weight: 500;
-    white-space: pre-wrap;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: Center;
-  }
-
-  .Logo_Footer{
-    position: relative;
-    left: -10em;
-    width: 20vw;
-  }
-
-  .Traco_Footer{
-    top: -1em;
-    border-radius: 30px;
-    width: 10.5vw; 
-    height: 3.5%;
-    background-color: var(--cor-primaria);
-  }
-
-  .Traco_Footer2{
-    position: relative;
-    top: -2.5em;
-    border-radius: 30px;
-    width: 3.5vw; 
-    height: 1.5%;
-    background-color: var(--cor-primaria)
-  }
-
-  .Icon_Endereço{
-    position: relative;
-    top: -6.3em;
-    left: -2.5em;
-    font-size: 1.06vw;
-  }
-
-  .Icon_Contato{
-    position: relative;
-    top: -13.7em;
-    left: -8.2em;
-    font-size: 1vw;
 }
 
-.Icon_WhatsApp{
+.Traco_Footer{
+    width: 3vw; 
+    height: 3px; 
+    background: #1C6758;
+    border-radius: 30px;
     position: relative;
-    top: -14.4em;
-    left: -8.2em;
-    font-size: 1vw;
+    left: -1.4em;
 }
-
-  .Contato_Footer{
-    padding-left: 15em;
-    position: relative;
-    top: 7.4em;
-  }
-
-  .Sede_Footer,
-  .Contato_Footer{
-    padding-top: 3em;
-  }
   
 .Text_Footer{
-    position: relative;
-    top: -1.5em;
-    align-items: center;
+    max-width: 18.13vw;
+    /* margin-top: .5em; */
+    margin-bottom: 1em;
 }
 
-.Text_Footer2{
+.Sede_Footer i{
     position: relative;
-    top: -3.4em;
+    left: -1.1em;
+    bottom: -1.1em;
+    font-size: 16px;
+}
+
+.Contato_Footer i{
+    position: relative;
+    left: -1.1em;
+    bottom: -1em;
+    font-size: 16px;
 }
 
   .footer-bottom {
     height: 4.1vw;
-    margin-top: 7em;
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
     background-color: var(--cor-primaria);
