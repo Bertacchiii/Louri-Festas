@@ -1,7 +1,8 @@
 .Container_Grid{
     display: grid;
-    grid-template-columns:  70% 69.1vw 70%;
-    padding: 15em;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 10fr));
+    gap: 15em;
+    padding: 7em;
 }
 
 .Container_Contatos{
@@ -88,7 +89,7 @@
 /* Informações de Contatos */
 .Container_Informacoes{
     font-family: var(--fonte-primaria);
-    padding-top: 3.5em;
+    padding-top: 5.5em;
 }
 
 .Siga{

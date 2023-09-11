@@ -324,6 +324,7 @@
     display: flex;
     justify-content: center;
     align-items: Center;
+    margin-top: 35em;
   }
 
   .Logo_Footer{
@@ -394,7 +395,7 @@
 
   .footer-bottom {
     height: 4.1vw;
-    margin-top: 7em;
+    /* margin-top: 7em; */
     display: flex;
     text-align: center;
     align-items: center;
