@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 10fr));
     gap: 15em;
-    padding: 7em;
+    padding-top: 7em;
+    padding-left: 10em;
 }
 
 .Container_Contatos{
