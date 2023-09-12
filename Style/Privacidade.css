@@ -1,25 +1,23 @@
 .Container_Privacidade{
-    /* display: flex;
-    flex-direction: column; */
     font-family: var(--fonte-primaria);
     padding: 7em;
-    /* white-space: pre-wrap; */
 }
 
 .Sub_Title{
     font-size: 2.2vw;
     font-weight: 600;
     color: var(--cor-primaria);
+    margin-bottom: 1em;
+    padding-top: 1em;
 }
 
 .Text{
+    display: inline;
     font-size: 1.70vw;
     font-weight: 100;
-    padding-bottom: 2em;
 }
 
 .Text a{
     text-decoration: none;
     color: var(--cor-primaria);
-    white-space: nowrap;
 }
