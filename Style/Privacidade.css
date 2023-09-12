@@ -7,13 +7,13 @@
 }
 
 .Sub_Title{
-    font-size: 42px;
+    font-size: 2.2vw;
     font-weight: 600;
     color: var(--cor-primaria);
 }
 
 .Text{
-    font-size: 32px;
+    font-size: 1.70vw;
     font-weight: 100;
     padding-bottom: 2em;
 }
@@ -21,4 +21,5 @@
 .Text a{
     text-decoration: none;
     color: var(--cor-primaria);
+    white-space: nowrap;
 }
