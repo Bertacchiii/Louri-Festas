@@ -1,0 +1,87 @@
+.Seleção_Produtos{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-letra-clara);
+    display: flex;
+    padding: 10em 7em;
+    justify-content: center;
+    text-align: center;
+    gap: 5em;
+}
+
+.Seleção_Produtos img{
+    width: 6em;
+    max-height: 5em;
+}
+
+.Produtos_Copo{
+    width: 7.9vw; 
+    height: 7.9vw; 
+    background: #3D8361; 
+    border-radius: 30px;
+    padding-top: 1em;
+}
+
+.Produtos_Prato{
+    width: 7.9vw; 
+    height: 7.9vw; 
+    background: #3D8361; 
+    border-radius: 30px;
+    padding-top: 1em;
+}
+
+.Produtos_Prato_Q,
+.Produtos_Cumbuca,
+.Produtos_Bandejas{
+    width: 7.9vw; 
+    height: 7.9vw; 
+    background: #3D8361; 
+    border-radius: 30px;
+    padding-top: 3em;
+}
+
+.Produtos_Neon{
+    width: 7.9vw; 
+    height: 7.9vw; 
+    background: #3D8361; 
+    border-radius: 30px;
+    padding-top: 1em;
+}
+
+.Produtos_Copo:hover,
+.Produtos_Prato:hover,
+.Produtos_Prato_Q:hover,
+.Produtos_Cumbuca:hover,
+.Produtos_Bandejas:hover,
+.Produtos_Neon:hover{
+    background-color: rgba(95, 172, 135, 0.5);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Div_Produtos{
+    width: 100%; 
+    height: 100%; 
+    border: 1px #3D8361 solid;
+}
+
+.Catalogo{
+    font-family: var(--fonte-primaria);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 1em 5em;
+}
+
+.Catalogo a{
+    text-decoration: none;
+    color: var(--cor-letra-escura);
+}
+
+.Pdf{
+    background-color: #3D8361;text-align: center;
+    width: 20%;
+    border-radius: 6px;
+    position: relative;
+    top: -1em;
+    left: 11.5em
+}

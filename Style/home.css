@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: 99;
-    /* position: fixed; */
+    position: fixed;
  }
  
  .Container_Header header{
@@ -206,7 +206,7 @@
     max-width: 5.365vw;
 }
 
-.Text{
+.Text_Produtos{
     display: flex;
     flex-direction: column;
     margin-top: 2em;

@@ -3,6 +3,8 @@
 @import url(Style/quemSomo.css);
 @import url(Style/Contatos.css);
 @import url(Style/Privacidade.css);
+@import url(Style/AreasDeAtuacao.css);
+@import url(Style/Produtos.css);
 
 :root{
 
@@ -11,7 +13,8 @@
     --cor-secundaria:#3D8361 ;
     --cor-terciaria:#EEF2E6 ;
     --cor-quartenaria:#5fac87;
-    --cor-quintenaria:#98EECC;;
+    --cor-quintenaria:#98EECC;
+    --cor-sextupla: #ff2001;
     --cor-letra-clara:#FFFFFF ;
     --cor-letra-escura:#000000 ;
 
