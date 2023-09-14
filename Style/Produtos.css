@@ -1,5 +1,6 @@
 .Seleção_Produtos{
     font-family: var(--fonte-primaria);
+    font-size: 0.7vw;
     color: var(--cor-letra-clara);
     display: flex;
     padding: 10em 7em;
@@ -9,42 +10,57 @@
 }
 
 .Seleção_Produtos img{
-    width: 6em;
-    max-height: 5em;
+    width: 5.3vw;
+    max-height: 3.1vw;
+    margin-bottom: 15px;
 }
 
 .Produtos_Copo{
     width: 7.9vw; 
     height: 7.9vw; 
     background: #3D8361; 
-    border-radius: 30px;
-    padding-top: 1em;
+    border-radius: 20px;
+    padding-top: 2.4em;
 }
 
 .Produtos_Prato{
     width: 7.9vw; 
     height: 7.9vw; 
     background: #3D8361; 
-    border-radius: 30px;
-    padding-top: 1em;
+    border-radius: 20px;
+    padding-top: 2.5em;
 }
 
-.Produtos_Prato_Q,
-.Produtos_Cumbuca,
+.Produtos_Prato_Q{
+    width: 7.9vw; 
+    height: 7.9vw; 
+    background: #3D8361; 
+    border-radius: 20px;
+    padding-top: 4.2em;
+}
+
+.Produtos_Cumbuca{
+    width: 7.9vw; 
+    height: 7.9vw; 
+    background: #3D8361; 
+    border-radius: 20px;
+    padding-top: 3.9em;
+}
+
 .Produtos_Bandejas{
     width: 7.9vw; 
     height: 7.9vw; 
     background: #3D8361; 
-    border-radius: 30px;
-    padding-top: 3em;
+    border-radius: 20px;
+    padding-top: 3.3em;
 }
 
 .Produtos_Neon{
     width: 7.9vw; 
     height: 7.9vw; 
     background: #3D8361; 
-    border-radius: 30px;
-    padding-top: 1em;
+    border-radius: 20px;
+    padding-top: 2.8em;
 }
 
 .Produtos_Copo:hover,
@@ -65,11 +81,13 @@
 }
 
 .Catalogo{
+    font-size: 1vw;
     font-family: var(--fonte-primaria);
     display: flex;
     flex-direction: row;
     justify-content: end;
     padding: 1em 5em;
+    gap: 0.5em;
 }
 
 .Catalogo a{
@@ -77,8 +95,15 @@
     color: var(--cor-letra-escura);
 }
 
+.Catalogo a:hover{
+    color: var(--cor-quintenaria);
+    cursor: pointer;
+    transition: .3s;
+}
+
 .Pdf{
-    background-color: #3D8361;text-align: center;
+    background-color: #3D8361;
+    text-align: center;
     width: 20%;
     border-radius: 6px;
     position: relative;

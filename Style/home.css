@@ -1,3 +1,50 @@
+/* Menu Hambuerguer */
+
+.hamburger-menu  {
+    color: var(--cor-letra-clara);
+    cursor: pointer;
+    font-size: 1.5vw;
+    padding-left: 2em;
+}
+
+/* Side-Bar */
+.side-menu {
+    position: fixed;
+    top: 7.7%;
+    width: 18.6vw;
+    height: 100em;
+    background-color: var(--cor-primaria);
+    padding: 2.9em;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+}
+
+.side-menu ul li a{
+    font-size: 0.9vw;
+    text-decoration: none;
+    color: var(--cor-letra-clara);
+    padding-left: 0.5em;
+}
+
+.side-menu ul li i{
+    z-index: 999;
+    color:var(--cor-letra-clara)   
+}
+
+.side-menu ul li a:hover{
+    color: var(--cor-quintenaria);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.side-menu ul li{
+    padding-top: 3em;
+}
+
+.side-menu.open {
+    transform: translateX(0);
+}
 /* ------Header--------- */
 
 .Container_Header{
@@ -11,7 +58,7 @@
  
  .Container_Header header{
      max-width: auto;
-     margin: 0em 3em 0 3em;
+     /* margin: 0em 3em 0 3em; */
      display: flex;
      flex-direction: row;
      justify-content: space-between;
@@ -328,7 +375,7 @@
 
 .Traco_Footer{
     width: 3vw; 
-    height: 3px; 
+    height: 0.3vw; 
     background: #1C6758;
     border-radius: 30px;
     position: relative;
@@ -368,4 +415,10 @@
     color: #FFFFFF;
     text-decoration: none;
     font-size: 0.90vw;
+}
+
+.Faixa_divisoria{
+    width: 100%; 
+    height: 100%; 
+    border: 1px #3D8361 solid
 }

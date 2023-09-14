@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Louri Festas - Quem Somos?</title>
-    <link rel="stylesheet" href="style.css">  
+    <title>Louri Festas</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="icon" type="png" href="img/menu_icon.png">  
+    <link rel="icon" type="png" href="img/menu_icon.png">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
+
 <body>
-      <!-- Header -->
-      <section class="Container_Header">
-        <header>  
+    <!-- Header -->
+    <section class="Container_Header">
+        <header>
             <div class="Header_Logo">
-                <a class="Menu_Header" href=""><i class="fa-solid fa-bars"></i></a>
-                <div class="Traco" ></div>
-             <a href="home.html"><img class="Logo_Header" src="./img/home1.svg" alt=""></a>              
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            
+                <div class="side-menu">
+                    <nav>
+                        <ul>
+                            <li><i class="fa-solid fa-house"></i><a href="home.html">Home</a></li>
+                            <li><i class="fa-solid fa-cart-shopping"></i><a href="Produtos.html">Produtos</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="AreasDeAtuacao.html">Áreas de Atuação</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="Contatos.html">Contato</a></li>
+                            <li><i class="fa-solid fa-circle-info"></i><a href="QuemSomos.html">Sobre</a></li>
+                            <li><i class="fa-solid fa-lock"></i><a href="Privacidade.html">Política e Privacidade</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            
+                
+            <script src="script.js"></script>
+            <script>
+                // Script para abrir e fechar o menu lateral
+                document.addEventListener("DOMContentLoaded", function() {
+                    var hamburger = document.querySelector(".hamburger-menu");
+                    var sideMenu = document.querySelector(".side-menu");
+            
+                    hamburger.addEventListener("click", function() {
+                        sideMenu.classList.toggle("open");
+                    });
+                });
+            </script>
+                <div class="Traco"></div>
+                <a href="home.html"><img class="Logo_Header" src="./img/home1.svg" alt="açai no pote"> </a>
             </div>
-           
-            <div class="navegacao">  
+
+            <div class="navegacao">
                 <nav id="nav">
                     <ul>
                         <li><a class="Texto_Header" href="Contatos.html">Entre em contato!</a></li>
-                        <li><a class="Icones_Header" href="+55114156-3559" target="_blank"><i class="fa-solid fa-phone" ;></i></a></li>
-                        <li><a class="Icones_Header" href="https://www.instagram.com/lourifestas/" target="_blank"><i class="fa-brands fa-instagram" ;></i></a></li>
-                        <li><a class="Icones_Header" href="https://www.facebook.com/lourifestas" target="_blank"><i class="fa-brands fa-facebook" ;></i></a></li>
-                        <li><a class="Icones_Header" href="api.whatsapp.com/send/?phone=5511981153279&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp";></i></a></li>
-                    </ul>    
-                </nav> 
+                        <li><a class="Icones_Header" href="+55114156-3559" target="_blank"><i class="fa-solid fa-phone"
+                                    ;></i></a></li>
+                        <li><a class="Icones_Header" href="https://www.instagram.com/lourifestas/" target="_blank"><i
+                                    class="fa-brands fa-instagram" ;></i></a></li>
+                        <li><a class="Icones_Header" href="https://www.facebook.com/lourifestas" target="_blank"><i
+                                    class="fa-brands fa-facebook" ;></i></a></li>
+                        <li><a class="Icones_Header"
+                                href="https://wa.me/5511981153279"
+                                target="_blank"><i class="fa-brands fa-whatsapp" ;></i></a></li>
+                    </ul>
+                </nav>
             </div>
-            
-        </section>
-        <div class="divisor" ></div>  
-        </header>
+
+    </section>
+    <div class="divisor"></div>
+    </header>
 
         <!-- Texto -->
 
@@ -41,18 +77,7 @@
             <div class="Container_Paragrafo">
                 <h1 class="Titulo_QuemSomos">Quem Somos</h1>
                 <p class="Texto_QuemSomos">
-                    Ao longo de muitos anos, nossa dedicação incansável tem sido
-                    direcionada para oferecer produtos que transcendem a simples 
-                    funcionalidade. Cada item é meticulosamente elaborado para personificar
-                    um compromisso com a excelência. Através de uma sinergia cuidadosamente 
-                    forjada entre durabilidade, qualidade e inovação estética, nossa missão
-                    é exceder as expectativas de nossos clientes. Nossa linha de copos e cumbucas
-                    de plástico é o fruto dessa paixão por criar produtos que não apenas atendem,
-                    mas superam as necessidades cotidianas. Cada peça é forjada a partir de materiais
-                    de primeira linha, escolhidos com precisão para garantir tanto a resistência quanto a
-                    segurança. Essa combinação harmoniosa resulta em um conjunto de produtos que não só
-                    lhe trazem satisfação, mas também asseguram a conformidade com os mais rigorosos
-                    padrões de qualidade exigidos.</p>
+                    Ao longo de muitos anos, nossa dedicação incansável tem sido direcionada para oferecer produtos que transcendem a simples funcionalidade. Cada item é meticulosamente elaborado para personificar um compromisso com a excelência. Através de uma sinergia cuidadosamente forjada entre durabilidade, qualidade e inovação estética, nossa missão é exceder as expectativas de nossos clientes. Nossa linha de copos e cumbucas de plástico é o fruto dessa paixão por criar produtos que não apenas atendem, mas superam as necessidades cotidianas. Cada peça é forjada a partir de materiais de primeira linha, escolhidos com precisão para garantir tanto a resistência quanto a segurança. Essa combinação harmoniosa resulta em um conjunto de produtos que não só lhe trazem satisfação, mas também asseguram a conformidade com os mais rigorosos padrões de qualidade exigidos.</p>
             </div>
             <div class="Container_Img1"><img src="/img/Fab_QuemSomos.png" style="width: 23.9vw;"></div>
         </section>
@@ -61,17 +86,11 @@
             <div class="Container_Img2"><img src="/img/Fab2_QuemSomos.png" style="width: 23.9vw;"></div>
             <div class="Container_Paragrafo">
                 <p class="Texto_QuemSomos">Na essência de nossa filosofia reside a convicção inabalável
-                    de que atender às necessidades contemporâneas vai além da mera oferta de produtos. Compreendemos que a vida moderna é dinâmica e multifacetada, 
-                    e é com esse entendimento
-                    que moldamos meticulosamente nosso catálogo.
-                    Em um mundo onde a praticidade e a conveniência se tornaram pilares incontestáveis,
-                    nosso compromisso é mais do que uma simples busca por satisfação. É um comprometimento
-                    profundo de assegurar que cada escolha seja uma expressão da sua individualidade e requisitos.
-                    Independentemente de estar em busca de soluções para o dia a dia.</p>
+                    de que atender às necessidades contemporâneas vai além da mera oferta de produtos. Compreendemos que a vida moderna é dinâmica e multifacetada, e é com esse entendimento que moldamos meticulosamente nosso catálogo. Em um mundo onde a praticidade e a conveniência se tornaram pilares incontestáveis, nosso compromisso é mais do que uma simples busca por satisfação. É um comprometimento profundo de assegurar que cada escolha seja uma expressão da sua individualidade e requisitos. Independentemente de estar em busca de soluções para o dia a dia.</p>
             </div>
         </section>
 
-<div class="Faixa_divisoria"></div>
+        <div style="width: 100%; height: 100%; border: 1px #3D8361 solid"></div>
 
          <!-- Equipe -->
 
@@ -85,7 +104,7 @@
             <img  class="Img_Equipe" src="/img/Equipe_QuemSomos.png" alt="">
          </section>
 
-<div class="Faixa_divisoria"></div>
+         <div style="width: 100%; height: 100%; border: 1px #3D8361 solid"></div>
 
     <!-- Footer -->
     <footer>
@@ -110,7 +129,7 @@
             </div>
         </section>
 
-        <div class="Faixadivisoria"></div>
+        <div style="width: 100%; height: 100%; border: 1px #3D8361 solid"></div>
 
         <section class="footer-bottom">
             <small class="copyright">Copyright 2023 © Indústria de Plásticos Lourifestas Eireli <a href="Privacidade.html"

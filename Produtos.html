@@ -16,7 +16,36 @@
     <section class="Container_Header">
         <header>
             <div class="Header_Logo">
-                <a class="Menu_Header" href=""><i class="fa-solid fa-bars"></i></a>
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            
+                <div class="side-menu">
+                    <nav>
+                        <ul>
+                            <li><i class="fa-solid fa-house"></i><a href="home.html">Home</a></li>
+                            <li><i class="fa-solid fa-cart-shopping"></i><a href="Produtos.html">Produtos</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="AreasDeAtuacao.html">Áreas de Atuação</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="Contatos.html">Contato</a></li>
+                            <li><i class="fa-solid fa-circle-info"></i><a href="QuemSomos.html">Sobre</a></li>
+                            <li><i class="fa-solid fa-lock"></i><a href="Privacidade.html">Política e Privacidade</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            
+                
+            <script src="script.js"></script>
+            <script>
+                // Script para abrir e fechar o menu lateral
+                document.addEventListener("DOMContentLoaded", function() {
+                    var hamburger = document.querySelector(".hamburger-menu");
+                    var sideMenu = document.querySelector(".side-menu");
+            
+                    hamburger.addEventListener("click", function() {
+                        sideMenu.classList.toggle("open");
+                    });
+                });
+            </script>
                 <div class="Traco"></div>
                 <a href="home.html"><img class="Logo_Header" src="./img/home1.svg" alt="açai no pote"> </a>
             </div>
@@ -80,10 +109,36 @@
             <i class="fa-solid fa-download"></i>
         </div>
         <div class="Text_Catalogo">
-            <a href="youtube.com/" target="_blank">Catalogo de Produtos</a><div class="Pdf"> PDF</div>
+            <a href="youtube.com/" target="_blank"><p class="Hover_Catala">Catalogo de Produtos</p></a><div class="Pdf"> PDF</div>
         </div>
     </section>
+    
 
+    <!-- <section class="Seleção_Produtos" id="selecaoCopo">
+         Conteúdo da seleção de copo aqui 1
+    </section>
+
+    <section class="Seleção_Produtos" id="selecaoPrato">
+        Conteúdo da seleção de prato aqui 2
+    </section>
+
+    <section class="Seleção_Produtos" id="selecaoPrato_Q">
+         Conteúdo da seleção de prato aqui 3
+    </section>
+
+    <section class="Seleção_Produtos" id="selecaoCumbuca">
+         Conteúdo da seleção de prato aqui 4
+    </section>
+
+    <section class="Seleção_Produtos" id="selecaoBandejas">
+        Conteúdo da seleção de prato aqui 5
+    </section>
+
+    <section class="Seleção_Produtos" id="selecaoNeon">
+         Conteúdo da seleção de prato aqui 6
+    </section> -->
+
+    
 
 
 

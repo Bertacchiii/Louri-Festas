@@ -9,14 +9,14 @@
 :root{
 
 /* Paleta de Cores */
-    --cor-primaria:#1C6758 ;
-    --cor-secundaria:#3D8361 ;
-    --cor-terciaria:#EEF2E6 ;
-    --cor-quartenaria:#5fac87;
-    --cor-quintenaria:#98EECC;
+    --cor-primaria: #1C6758 ;
+    --cor-secundaria: #3D8361 ;
+    --cor-terciaria: #EEF2E6 ;
+    --cor-quartenaria: #5fac87;
+    --cor-quintenaria: #98EECC;
     --cor-sextupla: #ff2001;
-    --cor-letra-clara:#FFFFFF ;
-    --cor-letra-escura:#000000 ;
+    --cor-letra-clara: #FFFFFF ;
+    --cor-letra-escura: #000000 ;
 
 /* Fontes */
     --fonte-primaria:'Poppins';

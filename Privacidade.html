@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Louri Festas</title>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="icon" type="png" href="img/menu_icon.png">  
+    <link rel="icon" type="png" href="img/menu_icon.png">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
+
 <body>
     <!-- Header -->
     <section class="Container_Header">
-        <header>  
+        <header>
             <div class="Header_Logo">
-                <a class="Menu_Header" href=""><i class="fa-solid fa-bars"></i></a>
-                <div class="Traco" ></div>
-             <a href="home.html"><img class="Logo_Header" src="./img/home1.svg" alt="açai no pote"> </a>              
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            
+                <div class="side-menu">
+                    <nav>
+                        <ul>
+                            <li><i class="fa-solid fa-house"></i><a href="home.html">Home</a></li>
+                            <li><i class="fa-solid fa-cart-shopping"></i><a href="Produtos.html">Produtos</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="AreasDeAtuacao.html">Áreas de Atuação</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="Contatos.html">Contato</a></li>
+                            <li><i class="fa-solid fa-circle-info"></i><a href="QuemSomos.html">Sobre</a></li>
+                            <li><i class="fa-solid fa-lock"></i><a href="Privacidade.html">Política e Privacidade</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            
+                
+            <script src="script.js"></script>
+            <script>
+                // Script para abrir e fechar o menu lateral
+                document.addEventListener("DOMContentLoaded", function() {
+                    var hamburger = document.querySelector(".hamburger-menu");
+                    var sideMenu = document.querySelector(".side-menu");
+            
+                    hamburger.addEventListener("click", function() {
+                        sideMenu.classList.toggle("open");
+                    });
+                });
+            </script>
+                <div class="Traco"></div>
+                <a href="home.html"><img class="Logo_Header" src="./img/home1.svg" alt="açai no pote"> </a>
             </div>
-           
-            <div class="navegacao">  
+
+            <div class="navegacao">
                 <nav id="nav">
                     <ul>
                         <li><a class="Texto_Header" href="Contatos.html">Entre em contato!</a></li>
-                        <li><a class="Icones_Header" href="+55114156-3559" target="_blank"><i class="fa-solid fa-phone" ;></i></a></li>
-                        <li><a class="Icones_Header" href="https://www.instagram.com/lourifestas/" target="_blank"><i class="fa-brands fa-instagram" ;></i></a></li>
-                        <li><a class="Icones_Header" href="https://www.facebook.com/lourifestas" target="_blank"><i class="fa-brands fa-facebook" ;></i></a></li>
-                        <li><a class="Icones_Header" href="api.whatsapp.com/send/?phone=5511981153279&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp";></i></a></li>
-                    </ul>    
-                </nav> 
+                        <li><a class="Icones_Header" href="+55114156-3559" target="_blank"><i class="fa-solid fa-phone"
+                                    ;></i></a></li>
+                        <li><a class="Icones_Header" href="https://www.instagram.com/lourifestas/" target="_blank"><i
+                                    class="fa-brands fa-instagram" ;></i></a></li>
+                        <li><a class="Icones_Header" href="https://www.facebook.com/lourifestas" target="_blank"><i
+                                    class="fa-brands fa-facebook" ;></i></a></li>
+                        <li><a class="Icones_Header"
+                                href="https://wa.me/5511981153279"
+                                target="_blank"><i class="fa-brands fa-whatsapp" ;></i></a></li>
+                    </ul>
+                </nav>
             </div>
-            
-        </section>
-        <div class="divisor" ></div>  
-        </header>
+
+    </section>
+    <div class="divisor"></div>
+    </header>
 
         <!-- Conteudo -->
         <section class="Container_Privacidade">
@@ -116,8 +152,6 @@ A presente política poderá ser alterada ao longo do tempo. O uso continuado do
                 <p class="Text_Footer">(11) 98115-3279</p>
             </div>
         </section>
-
-        <div class="Faixadivisoria"></div>
 
         <section class="footer-bottom">
             <small class="copyright">Copyright 2023 © Indústria de Plásticos Lourifestas Eireli <a href="Privacidade.html"
