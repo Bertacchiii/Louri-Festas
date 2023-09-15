@@ -4,6 +4,7 @@
     gap: 15em;
     padding-top: 7em;
     padding-left: 10em;
+    min-height: 60em;
 }
 
 .Container_Contatos{
@@ -32,7 +33,6 @@
     padding-top: 1em;
     width: 37.2vw;
     height: 30em;
-    /* padding-bottom: 1250px; */
 }
 
 .Envio_Contatos form input{
@@ -40,7 +40,6 @@
     padding: 0.5em;
     margin-right: 20px; 
     margin-bottom: 40px; 
-  
 }
 
 .Envio_Contatos form textarea {
@@ -238,7 +237,7 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    width: 320px;
+    width: -300px;
   }
 
   

@@ -1,6 +1,6 @@
 .Container_Map{
     font-family: var(--fonte-primaria);
-    padding: 7em 7em;
+    padding: 15em 7em;
 }
 
 .Title_Map{
@@ -10,7 +10,6 @@
 
 .Map{
     padding-top: 5em;
-    width: 50vw;
 }
 
 .Container_Loc{
@@ -19,7 +18,7 @@
     position:static
 }
 
-/* .PA{
+.PA{
     position: relative;
     top: -30%;
     left: 18em;
@@ -29,11 +28,11 @@
     position: relative;
     top: -24em;
     left: 20em;
-} */
+}
 
 .Infos_Map{
     font-family: var(--fonte-primaria);
-    padding: 7em 7em;
+    /* padding: 1em 7em; */
 }
 
 .Text_Map{

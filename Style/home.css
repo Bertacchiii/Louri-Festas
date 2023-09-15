@@ -83,7 +83,7 @@
  
  .navegacao nav ul a{
      margin: 0.2em;
- }
+}
  
  .Texto_Header{
     text-decoration: none;
@@ -370,7 +370,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: Center;
-    /* margin-top: 50em; */
+    margin-top: 25em;
 }
 
 .Traco_Footer{
@@ -412,7 +412,7 @@
 
 .copyright{
     font-family: var(--fonte-primaria);
-    color: #FFFFFF;
+    color: var(--cor-letra-clara);
     text-decoration: none;
     font-size: 0.90vw;
 }
