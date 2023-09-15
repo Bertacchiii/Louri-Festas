@@ -7,12 +7,14 @@
     justify-content: center;
     text-align: center;
     gap: 5em;
+    flex-wrap: wrap;
 }
 
 .Seleção_Produtos img{
     width: 5.3vw;
     max-height: 3.1vw;
     margin-bottom: 15px;
+    
 }
 
 .Produtos_Copo{
