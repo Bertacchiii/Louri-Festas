@@ -1,6 +1,22 @@
-.Container_Map{
-    font-family: var(--fonte-primaria);
-    padding: 15em 7em;
+.Container_map{
+
+}
+
+#map {
+    height: calc(120vh - 100px); 
+    width: calc(120vh - 50px);
+    margin: 7em 7em;
+}
+
+
+#info-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
 }
 
 .Title_Map{
@@ -8,31 +24,10 @@
     font-weight: 600;
 }
 
-.Map{
-    padding-top: 5em;
-}
-
-.Container_Loc{
-    font-size: 2vw;
-    color: var(--cor-sextupla);
-    position:static
-}
-
-.PA{
-    position: relative;
-    top: -30%;
-    left: 18em;
-}
-
-.MA{
-    position: relative;
-    top: -24em;
-    left: 20em;
-}
-
 .Infos_Map{
     font-family: var(--fonte-primaria);
-    /* padding: 1em 7em; */
+    padding: 3em 7em;
+    
 }
 
 .Text_Map{

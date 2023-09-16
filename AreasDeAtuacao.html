@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="icon" type="png" href="img/menu_icon.png">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -71,37 +73,145 @@
     <div class="divisor"></div>
     </header>
 
-    <!-- Map -->
+    <!-- Mapa Interativo -->
     <section class="Container_Map">
         <div class="Title_Map">
             <p>Áreas de Atuação</p>
         </div>
         <div class="Traco_Titulo"></div>
-        <div class="Map">
-            <img src="img/Map.jpg" style="width: 30vw;">
-        </div>
-    <!-- <div class="Container_Loc">
-        <div class="PA"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="MA"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="PI"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="RN"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="PB"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="PE"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="AL"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="SE"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="BA"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="DF"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="GO"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="MG"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="ES"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="RJ"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="SP"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="MS"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="PR"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="RS"><i class="fa-solid fa-location-dot"></i></div>
-    </div>
-        <div class="Traco_Titulo"></div> -->
-    </section>
+    <div id="map"></div>
+    <div id="info-box"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    var map = L.map('map').setView([-14.2350, -51.9253], 4); // Centralize o mapa no Brasil
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var estados = [
+        {
+            nome: "Rio Grande do Sul",
+            coordenadas: [-32.2074933, -53.0388747],
+            informacoes: "teste teste"
+        },
+        
+        {
+            nome: "São Paulo",
+            coordenadas: [-23.6814332, -46.9256264],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Paraná",
+            coordenadas: [-24.5240913,-56.6153183],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Rio De Janeiro",
+            coordenadas: [-22.9122827, -44.0691202],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Mato Grosso Do Sul",
+            coordenadas: [-20.5364199, -59.8412307],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Minas Gerais",
+            coordenadas: [-18.2787805,-56.1124379],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Espiríto Santo",
+            coordenadas: [-19.2839132,-46.0222178],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Distrito Federal",
+            coordenadas: [-15.7217003,-48.1021702],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Goiania",
+            coordenadas: [-16.6958107,-49.4690796],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Bahia",
+            coordenadas: [-13.3853458,-47.2570079],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Sergipe",
+            coordenadas: [-10.5390766,-38.6400702],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Alagoas",
+            coordenadas: [-9.6467146,-39.3368629],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Pernanbuco",
+            coordenadas: [-6.6156176,-42.1673634],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Piauí",
+            coordenadas: [-6.8102998,-48.4984348],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Rio Grande Do Norte",
+            coordenadas: [-5.8933192,-39.4174888],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Paraíba",
+            coordenadas: [-7.1568959,-39.4215317],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Pará",
+            coordenadas: [-3.5805846,-57.7861737],
+            informacoes: "teste teste"
+        },
+
+        {
+            nome: "Maranhão",
+            coordenadas: [-5.6315301,-50.57483],
+            informacoes: "teste teste"
+        },
+    ];
+
+    estados.forEach(function (estado) {
+        var marker = L.marker(estado.coordenadas).addTo(map);
+        marker.bindPopup(estado.nome).on('click', function () {
+            document.getElementById('info-box').innerHTML = estado.informacoes;
+            document.getElementById('info-box').style.display = 'block';
+        });
+    });
+});
+    </script>
+    
+    <div class="Traco_Titulo"></div> 
+    
 
     <!-- Infos Map -->
     <section class="Infos_Map">
@@ -113,31 +223,6 @@
             <a href="Contatos.html">Clicando aqui></a>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- Footer -->
 <footer>
