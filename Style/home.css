@@ -17,7 +17,7 @@
     padding: 2.9em;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
-    z-index: 99;
+    z-index: 98;
 }
 
 .side-menu ul li a{

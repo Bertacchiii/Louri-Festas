@@ -77,25 +77,45 @@
     <section class="Container_Map">
         <div class="Title_Map">
             <p>Áreas de Atuação</p>
+            <div class="Traco_Titulo"></div>
         </div>
-        <div class="Traco_Titulo"></div>
     <div id="map"></div>
     <div id="info-box"></div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map('map').setView([-14.2350, -51.9253], 4); // Centralize o mapa no Brasil
+            var map = L.map('map').setView([-14.2350, -51.9253], 4);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+    
+            var satelliteLayer = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+                attribution: '&copy; <a href="https://www.google.com/">Google Maps</a>',
+            }).addTo(map);
 
-    var estados = [
-        {
-            nome: "Rio Grande do Sul",
-            coordenadas: [-32.2074933, -53.0388747],
-            informacoes: "teste teste"
-        },
+
+            var labelsLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                subdomains: ['a', 'b', 'c'],
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            });
+
+            
+            labelsLayer.setOpacity(0.7); 
+
+            var baseLayers = {
+                "Satélite": satelliteLayer,
+                "Rótulos": labelsLayer,
+            };
+
+            L.control.layers(baseLayers).addTo(map);
+
+            var estados = [
+                {
+                    nome: "Rio Grande do Sul",
+                    coordenadas: [-32.2074933, -53.0388747],
+                    informacoes: "teste teste"
+                },
         
         {
             nome: "São Paulo",
@@ -200,17 +220,26 @@
         },
     ];
 
-    estados.forEach(function (estado) {
-        var marker = L.marker(estado.coordenadas).addTo(map);
-        marker.bindPopup(estado.nome).on('click', function () {
-            document.getElementById('info-box').innerHTML = estado.informacoes;
-            document.getElementById('info-box').style.display = 'block';
+    var redIcon = L.icon({
+            iconUrl: 'Map/leaflet/images/local.png', // Substitua pelo caminho da sua imagem de ícone vermelho
+            iconSize: [30, 30], // Tamanho do ícone em pixels
+            iconAnchor: [15, 30], // Ponto de ancoragem do ícone (ponto inferior do meio)
+        });
+
+        estados.forEach(function (estado) {
+            var marker = L.marker(estado.coordenadas, { icon: redIcon }).addTo(map);
+            marker.bindPopup(estado.nome).on('click', function () {
+                document.getElementById('info-box').innerHTML = estado.informacoes;
+                document.getElementById('info-box').style.display = 'block';
+            });
         });
     });
-});
-    </script>
+</script>
+</div>
     
-    <div class="Traco_Titulo"></div> 
+    
+    <!-- <div class="Traco_Titulo"></div>  -->
+
     
 
     <!-- Infos Map -->

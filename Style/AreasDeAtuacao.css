@@ -1,11 +1,11 @@
 .Container_map{
-
+    font-family: var(--fonte-primaria);
 }
 
 #map {
-    height: calc(120vh - 100px); 
-    width: calc(120vh - 50px);
-    margin: 7em 7em;
+    height: 70vh;
+    width: 70vh;
+    z-index: 97;
 }
 
 
@@ -22,6 +22,7 @@
 .Title_Map{
     font-size: 2.2vw;
     font-weight: 600;
+    padding: 7em 3em;
 }
 
 .Infos_Map{
