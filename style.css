@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap%27);
 @import url(Style/home.css);
-@import url(Style/quemSomo.css);
+@import url(Style/QuemSomos.css);
 @import url(Style/Contatos.css);
 @import url(Style/Privacidade.css);
 @import url(Style/AreasDeAtuacao.css);
 @import url(Style/Produtos.css);
+@import url(Style/Map.js);
 
 :root{
 

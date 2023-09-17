@@ -1,16 +1,13 @@
-.Container_map{
+.Container_Map{
     font-family: var(--fonte-primaria);
-    display: flex;
-    flex-direction: column;
-    
+    padding: 10em 7em;
 }
 
 #map {
     height: 40vw;
     width: 40vw;
     z-index: 97;
-    padding: -15em 9.5em;
-    margin-bottom: 3em;
+    margin-bottom:  1em;
 }
 
 
@@ -31,7 +28,7 @@
 }
 
 .modal_fade{
-    padding-top: 10em;
+    padding: 10em 5em;
 }
 
 .Title_Vendedores{
@@ -60,13 +57,13 @@
 .Title_Map{
     font-size: 2.2vw;
     font-weight: 600;
-    padding: 5em 5.4em;
-    margin-bottom: 5em;
+    padding-bottom: 1em;
 }
 
 .Infos_Map{
     font-family: var(--fonte-primaria);
-    padding: 3em 7em;
+    padding: 0em 7em;
+    margin-bottom: 1em;
     
 }
 

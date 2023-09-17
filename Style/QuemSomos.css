@@ -8,17 +8,17 @@
     padding-top: 8em;
     display: flex;
     justify-content: center;
-    gap: 5em;
+    gap: 0em;
     
 }
 
 .Main_QuemSomos2{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
-    padding: 0 4em 4em 4em;
+    /* padding: 0em; */
     display: flex;
     justify-content: center;
-    gap: 1em    
+    gap: 0em    
 }
 
 .Container_Paragrafo{
@@ -27,7 +27,7 @@
     padding: 2em;
     width: 30%; 
     height: 30%;
-    font-size: 26px;
+    font-size: 2.6vw;
     font-weight: 100; 
 }
 
@@ -49,9 +49,9 @@
     
 }
 
-/* .Container_Img2{
-    
-} */
+.Container_Img2{
+    padding-top: 4.8em;
+}
 
 .Main_Equipe{
     display: flex;
