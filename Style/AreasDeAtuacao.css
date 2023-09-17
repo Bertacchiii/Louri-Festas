@@ -1,28 +1,67 @@
 .Container_map{
     font-family: var(--fonte-primaria);
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #map {
-    height: 70vh;
-    width: 70vh;
+    height: 40vw;
+    width: 40vw;
     z-index: 97;
+    padding: -15em 9.5em;
+    margin-bottom: 3em;
 }
 
 
 #info-box {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: white;
-    padding: 10px;
-    border: 1px solid #ccc;
+    width: 61vw;
+    font-family: var(--fonte-primaria);
+    font-size: 1.8vw;
+    background-color: var(--cor-primaria);
+    border-radius: 30px;
+    color: var(--cor-letra-clara);
+    padding: 1em 1em;
     display: none;
+}
+
+#close-button{
+    cursor: pointer;
+    width: 15px;
+}
+
+.modal_fade{
+    padding-top: 10em;
+}
+
+.Title_Vendedores{
+    font-size: 3vw;
+    padding-top: 1em;
+    font-weight: 600;
+}
+
+.Divisor_Vendedores{
+    width: 5.9vw; 
+    height: 0.26vw;
+    background: var(--cor-letra-clara);
+    border-radius: 30px;
+    position: relative;
+    top: 0.5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.Lista_Vendedores{
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+    font-weight: 100;
 }
 
 .Title_Map{
     font-size: 2.2vw;
     font-weight: 600;
-    padding: 7em 3em;
+    padding: 5em 5.4em;
+    margin-bottom: 5em;
 }
 
 .Infos_Map{
