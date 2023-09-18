@@ -53,7 +53,7 @@
 
 .Envio_Contatos form label{
     font-size: 1vw;
-  }
+}
 
   .Teste{
     margin-top: 1.5em;
@@ -64,23 +64,6 @@
 .Envio_Contatos form input label{
     font-size: 1vw;
 }
-
-/* .Botao_Enviar{
-    width: 12.7vw;
-    height: 3.7vw;
-    display: flex;
-    text-decoration: none;
-    color: var(--cor-primaria);
-    border-radius: 5px;
-    border: 2px solid var(--cor-primaria);
-    text-align: center;
-    justify-content: center;
-    font-size: 1vw;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: none;
-    margin-top: 0.8em;
-} */
 
 .Botao_Enviar:hover{
     background-color: var(--cor-secundaria);
