@@ -7,7 +7,7 @@
     <title>Louri Festas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="icon" type="png" href="img/menu_icon.png">
+    <link rel="icon" type="png" href="img/Logo/menu_icon.png">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 
@@ -47,7 +47,7 @@
                 });
             </script>
                 <div class="Traco"></div>
-                <a href="home.html"><img class="Logo_Header" src="./img/home1.svg" alt="açai no pote"> </a>
+                <a href="home.html"><img class="Logo_Header" src="img/Logo/home1.svg" alt="açai no pote"> </a>
             </div>
 
             <div class="navegacao">
@@ -112,31 +112,40 @@
             <a href="youtube.com/" target="_blank"><p class="Hover_Catala">Catalogo de Produtos</p></a><div class="Pdf"> PDF</div>
         </div>
     </section>
+
+    <section class="Lista_Copo">
+        <div class="Produto">
+            <div class="Titulo_Produto">
+                <h3>Copo Personalizado</h3>
+                <i class="fa-solid fa-caret-down Icone_Revelar"></i>
+            </div>
+            <div class="Descricao_Produto hidden">
+                <p>Este é o copo personalizado da Louri Festas. Ele é perfeito para festas e eventos especiais.</p>
+                <p>Preço: R$ 5,00 por unidade.</p>
+            </div>
+        </div>
+        <!-- Outros produtos aqui -->
+    </section>
     
+    <!-- Seu código JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Seletor para todos os ícones de revelação
+            var iconesRevelar = document.querySelectorAll(".Icone_Revelar");
 
-    <!-- <section class="Seleção_Produtos" id="selecaoCopo">
-         Conteúdo da seleção de copo aqui 1
-    </section>
+            // Event listener para cada ícone de revelação
+            iconesRevelar.forEach(function (icone) {
+                icone.addEventListener("click", function () {
+                    // Seletor para a descrição do produto mais próxima do ícone clicado
+                    var descricaoProduto = icone.closest(".Produto").querySelector(".Descricao_Produto");
 
-    <section class="Seleção_Produtos" id="selecaoPrato">
-        Conteúdo da seleção de prato aqui 2
-    </section>
+                    // Alternar a classe "hidden" para mostrar/ocultar a descrição do produto
+                    descricaoProduto.classList.toggle("hidden");
+                });
+            });
+        });
+    </script>
 
-    <section class="Seleção_Produtos" id="selecaoPrato_Q">
-         Conteúdo da seleção de prato aqui 3
-    </section>
-
-    <section class="Seleção_Produtos" id="selecaoCumbuca">
-         Conteúdo da seleção de prato aqui 4
-    </section>
-
-    <section class="Seleção_Produtos" id="selecaoBandejas">
-        Conteúdo da seleção de prato aqui 5
-    </section>
-
-    <section class="Seleção_Produtos" id="selecaoNeon">
-         Conteúdo da seleção de prato aqui 6
-    </section> -->
 
     
 
@@ -181,7 +190,7 @@
     <!-- Footer -->
     <footer>
         <section class="Main_Footer">
-            <div class="Logo_Footer"><a href="home.html"><img src="img/logocolorida.png" style="width: 20vw"></a></div>
+            <div class="Logo_Footer"><a href="home.html"><img src="img/Logo/logocolorida.png" style="width: 20vw"></a></div>
 
             <div class="Sede_Footer">
                 <p class="Text_Footer">Sede em São Paulo</p>

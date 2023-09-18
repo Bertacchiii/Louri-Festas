@@ -112,3 +112,7 @@
     top: -1em;
     left: 11.5em
 }
+
+.hidden {
+  display: none;
+}
