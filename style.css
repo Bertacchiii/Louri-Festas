@@ -1,3 +1,4 @@
+/* Style */
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap%27);
 @import url(Style/home.css);
 @import url(Style/QuemSomos.css);
@@ -5,7 +6,7 @@
 @import url(Style/Privacidade.css);
 @import url(Style/AreasDeAtuacao.css);
 @import url(Style/Produtos.css);
-@import url(Style/Map.js);
+
 
 :root{
 
@@ -32,4 +33,5 @@ html{
     scroll-behavior: smooth;
     background-color:var(--cor-terciaria);
     overflow-x: hidden;
+    font-family: var(--fonte-primaria);
 } 

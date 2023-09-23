@@ -20,7 +20,7 @@
 .Produtos_Copo{
     width: 7.9vw; 
     height: 7.9vw; 
-    background: #3D8361; 
+    background: var(--cor-secundaria); 
     border-radius: 20px;
     padding-top: 2.4em;
 }
@@ -28,7 +28,7 @@
 .Produtos_Prato{
     width: 7.9vw; 
     height: 7.9vw; 
-    background: #3D8361; 
+    background: var(--cor-secundaria); 
     border-radius: 20px;
     padding-top: 2.5em;
 }
@@ -36,7 +36,7 @@
 .Produtos_Prato_Q{
     width: 7.9vw; 
     height: 7.9vw; 
-    background: #3D8361; 
+    background: var(--cor-secundaria); 
     border-radius: 20px;
     padding-top: 4.2em;
 }
@@ -44,7 +44,7 @@
 .Produtos_Cumbuca{
     width: 7.9vw; 
     height: 7.9vw; 
-    background: #3D8361; 
+    background: var(--cor-secundaria); 
     border-radius: 20px;
     padding-top: 3.9em;
 }
@@ -52,7 +52,7 @@
 .Produtos_Bandejas{
     width: 7.9vw; 
     height: 7.9vw; 
-    background: #3D8361; 
+    background: var(--cor-secundaria); 
     border-radius: 20px;
     padding-top: 3.3em;
 }
@@ -60,7 +60,7 @@
 .Produtos_Neon{
     width: 7.9vw; 
     height: 7.9vw; 
-    background: #3D8361; 
+    background: var(--cor-secundaria); 
     border-radius: 20px;
     padding-top: 2.8em;
 }
@@ -104,7 +104,7 @@
 }
 
 .Pdf{
-    background-color: #3D8361;
+    background-color: var(--cor-secundaria);
     text-align: center;
     width: 20%;
     border-radius: 6px;
@@ -113,6 +113,42 @@
     left: 11.5em
 }
 
-.hidden {
-  display: none;
+.hidden{
+    display: none;
+}
+
+/* Copo */
+.Container_Produtos_Copo{
+    display: flex;
+}
+
+.Img_Anuncio_P{
+}
+
+.Produto{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-letra-clara);
+    width: 18.3vw;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.Produto h3{
+    font-size: 1.5vw;
+}
+
+.Titulo_Produto{
+    background-color: var(--cor-letra-escura);
+    width: 15.2vw;
+    justify-content: center;
+    color: var(--cor-letra-clara);
+    border-radius: 1.2vw;
+    text-align: center;
+}
+
+.lista{
+    padding: 0.5em 0.5em  0.5em;
+    padding-bottom: 1em;
+    font-size: 1vw;
+    
 }

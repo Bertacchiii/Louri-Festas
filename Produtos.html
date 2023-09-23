@@ -73,31 +73,31 @@
 
     <section class="Seleção_Produtos">
         <!-- Copo -->
-        <div class="Produtos_Copo">
+        <div class="Produtos_Copo" onclick="mostrarListaCopo()">
             <img src="img/SVG/Copo.svg">
             <p>Copo</p>
         </div>
         <!-- Prato -->
-        <div class="Produtos_Prato">
+        <div class="Produtos_Prato" onclick="mostrarListaPrato()">
             <img src="img/SVG/Prato.svg">
             <p>Prato</p>
         </div>
         <!-- Prato_Q -->
-        <div class="Produtos_Prato_Q">
+        <div class="Produtos_Prato_Q"  onclick="mostrarListaPrato_Q()">
             <img src="img/SVG/Prato_Quadrado.svg">
             <P>Prato Quadrado</P>
         </div>
         <!-- Cumbuca -->
-        <div class="Produtos_Cumbuca">
+        <div class="Produtos_Cumbuca" onclick="mostrarListaCumbuca()">
             <img src="img/SVG/Pote.svg">
             <p>Cumbuca</p>
         </div>
         <!-- Bandeja -->
-        <div class="Produtos_Bandejas">
+        <div class="Produtos_Bandejas onclick="  onclick="mostrarListaBandejas()">
             <img src="img/SVG/Bandeija.svg">
             <p>Bandeja</p>
         </div>
-        <div class="Produtos_Neon">
+        <div class="Produtos_Neon" onclick="mostrarListaNeon()">
             <img src="img/SVG/Neon.svg">
             <p>Linha Neon</p>
         </div>
@@ -113,22 +113,65 @@
         </div>
     </section>
 
-    <section class="Lista_Copo">
-        <div class="Produto">
+    <section class="Container_Produtos_Copo">
+        <div class="Produto"> 
+            <div class="Img_Anuncio_P"><img src="img/Produtos/Copo.png " style="width: 8.1vw;"></div>
             <div class="Titulo_Produto">
                 <h3>Copo Personalizado</h3>
-                <i class="fa-solid fa-caret-down Icone_Revelar"></i>
+                <i class="fa-solid fa-angle-down Icone_Revelar"></i>
             </div>
             <div class="Descricao_Produto hidden">
-                <p>Este é o copo personalizado da Louri Festas. Ele é perfeito para festas e eventos especiais.</p>
-                <p>Preço: R$ 5,00 por unidade.</p>
+                <ul class="lista">
+                    <li>Referência: CT-080 TR</li>
+                    <li>Cor: Transparente</li>
+                    <li>Material: Poliestireno (PS)</li>
+                    <li>Volume máximo: 80ml</li>
+                    <li>Caixa: 2500un</li>
+                    <li>Embalagem: 100un</li>
+                    <li>Pacote/Unidade: 25 x 100</li>
+                    <li>C/ Fiscal: 39241000</li>
+                    <li>INMETRO: 005983/2016</li>
+                    <li>m³ Individual: 0,028</li>
+                </ul>
             </div>
         </div>
+
+        
         <!-- Outros produtos aqui -->
     </section>
     
     <!-- Seu código JavaScript -->
     <script>
+function mostrarListaCopo() {
+    var listaCopo = document.querySelector(".Lista_Copo");
+    listaCopo.style.display = (listaCopo.style.display === "none" || listaCopo.style.display === "") ? "block" : "none";
+}
+
+// function mostrarListaPrato() {
+//     var listaCopo = document.querySelector(".Lista_Prato");
+//     listaCopo.style.display = (listaCopo.style.display === "none" || listaCopo.style.display === "") ? "block" : "none";
+// }
+
+// function mostrarListaPrato_Q() {
+//     var listaCopo = document.querySelector(".Lista_Prato_Q");
+//     listaCopo.style.display = (listaCopo.style.display === "none" || listaCopo.style.display === "") ? "block" : "none";
+// }
+
+// function mostrarListaCumbuca() {
+//     var listaCopo = document.querySelector(".Lista_Cumbuca");
+//     listaCopo.style.display = (listaCopo.style.display === "none" || listaCopo.style.display === "") ? "block" : "none";
+// }
+
+// function mostrarListaBandejas() {
+//     var listaCopo = document.querySelector(".Lista_Bandejas");
+//     listaCopo.style.display = (listaCopo.style.display === "none" || listaCopo.style.display === "") ? "block" : "none";
+// }
+
+// function mostrarListaNeon() {
+//     var listaCopo = document.querySelector(".Lista_Neon");
+//     listaCopo.style.display = (listaCopo.style.display === "none" || listaCopo.style.display === "") ? "block" : "none";
+// }
+
         document.addEventListener("DOMContentLoaded", function () {
             // Seletor para todos os ícones de revelação
             var iconesRevelar = document.querySelectorAll(".Icone_Revelar");

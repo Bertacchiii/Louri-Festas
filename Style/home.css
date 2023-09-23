@@ -7,12 +7,19 @@
     padding-left: 2em;
 }
 
+.hamburger-menu:hover{
+    color: var(--cor-quintenaria);
+    cursor: pointer;
+    transition: .5s;
+}
+
 /* Side-Bar */
 .side-menu {
     position: fixed;
-    top: 7.7%;
-    width: 18.6vw;
-    height: 100vw;
+    top: 2.4em;
+    min-width: 10vw;
+    max-width: 18.6vw;
+    min-height: 200vw;
     background-color: var(--cor-primaria);
     padding: 2.9em;
     transform: translateX(-100%);

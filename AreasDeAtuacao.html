@@ -109,25 +109,24 @@ document.getElementById('close-button').addEventListener('click', function() {
             var map = L.map('map').setView([-14.2350, -51.9253], 4);
 
     
-            var satelliteLayer = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-                maxZoom: 20,
-                subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-                attribution: '&copy; <a href="https://www.google.com/">Google Maps</a>',
-            }).addTo(map);
-
-
             var labelsLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
                 subdomains: ['a', 'b', 'c'],
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             });
 
+            var satelliteLayer = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+                attribution: '&copy; <a href="https://www.google.com/">Google Maps</a>',
+            }).addTo(map);
+
             
             labelsLayer.setOpacity(0.7); 
 
             var baseLayers = {
-                "Satélite": satelliteLayer,
                 "Rótulos": labelsLayer,
+                "Satélite": satelliteLayer,
             };
 
             L.control.layers(baseLayers).addTo(map);
