@@ -117,38 +117,102 @@
     display: none;
 }
 
+/* Seletor de Produto */
+
+
+/* -------------------------------------------------- */
+
 /* Copo */
-.Container_Produtos_Copo{
+
+
+
+.Copos{
+    font-family: var(--fonte-primaria);
     display: flex;
+    justify-content: center;
+    gap: 3em;
 }
 
-.Img_Anuncio_P{
-}
-
-.Produto{
-    background-color: var(--cor-secundaria);
-    color: var(--cor-letra-clara);
-    width: 18.3vw;
-    border-radius: 15px;
+.Copo_um{
+    display: flex;
     align-items: center;
 }
 
-.Produto h3{
-    font-size: 1.5vw;
+.Border{
+    width: 16.2vw; 
+    max-height: 26.6vw;
+    border-radius: 15px; 
+    border: 1px #3D8361 solid;
+
+    overflow: hidden;
+    transition: height 0.3s ease-in-out; /* Transição suave da altura */
 }
 
-.Titulo_Produto{
-    background-color: var(--cor-letra-escura);
-    width: 15.2vw;
-    justify-content: center;
-    color: var(--cor-letra-clara);
-    border-radius: 1.2vw;
-    text-align: center;
+.bkcp{
+    border-radius: 15px;
+    width: 250px;
+    background-color: var(--cor-terciaria);
+    padding: 1em 1em 1em 1.5em
 }
 
 .lista{
-    padding: 0.5em 0.5em  0.5em;
-    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 0.8vw;
+    color: var(--cor-letra-escura);
+    margin-bottom: 1em;
+    font-weight: 100;
+}
+
+.Revelar{
+    display: flex;
+    justify-content: center;
+    padding-left: 5em;
     font-size: 1vw;
-    
+    cursor: pointer;
+    color: var(--cor-letra-escura);
+}
+
+.Revelar:hover{
+    color: var(--cor-quintenaria);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.bkimg{
+    display: flex;
+    justify-content: center;
+    width: 11.4vw;
+    background-color: var(--cor-secundaria);
+    margin-bottom: 1em;
+    border-radius: 15px;
+    margin-left: 2em;
+
+}
+
+.Img_cp{
+    border-radius: 15px;
+    width: 7vw;
+}
+
+.bktitle{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-letra-clara);
+    width: 9.5vw;
+    height: 1.06vw;
+    border-radius: 10px;
+    background-color: var(--cor-letra-escura);
+    font-size: 0.8vw;
+    margin-bottom: 1em;
+    font-weight: 600;
+    margin-left: 3em;
+}
+
+.ulinfo{
+    padding-top: 1em;
+    font-size: 0.8vw;
+    color: var(--cor-letra-escura);
+    margin-bottom: 0.1em;
+    font-weight: 600;
 }
