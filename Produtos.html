@@ -115,69 +115,69 @@
 
 
     <section class="Copos">
+        <!-- Copo -->
         <div class="Copo_um">
             <div class="Border">
-            <div class="bkcp">
-                <div class="bkimg">
-                <img class="Img_cp" src="img/Produtos/Copo.png">
-            </div>
-            <div class="bktitle">
-                <p>Nome do produto</p>
-            </div>
-            <div class="ulinfo">
-            <p>Informações:</p>
-            </div>
-                <ul class="lista">
-                    <li>•Referência: CT-080 TR</li>
-                    <li>•Cor: Transparente</li>
-                    <li>•Material: Poliestireno (PS)</li>
-                    <li>•Volume máximo: 80ml</li>
-                    <li>•Caixa: 2500un</li>
-                    <li>•Embalagem: 100un</li>
-                    <li>•Pacote/Unidade: 25 x 100</li>
-                    <li>•C/ Fiscal: 39241000</li>
-                    <li>•INMETRO: 005983/2016</li>
-                    <li>•m³ Individual: 0,028</li>
-                </ul>
-                <div class="Revelar">
-                    <i class="fa-solid fa-angle-down Icone_Revelar"></i>
+                <div class="bkcp">
+                    <div class="bkimg">
+                        <img class="Img_cp" src="img/Produtos/Copo.png">
+                    </div>
+                    <div class="bktitle">
+                        <p>Nome do produto</p>
+                    </div>
+                    <div class="ulinfo">
+                        <p>Informações:</p>
+                    </div>
+                    <ul class="lista hidden"> <!-- Adicione a classe "hidden" aqui -->
+                        <li>•Referência: CT-080 TR</li>
+                        <li>•Cor: Transparente</li>
+                        <li>•Material: Poliestireno (PS)</li>
+                        <li>•Volume máximo: 80ml</li>
+                        <li>•Caixa: 2500un</li>
+                        <li>•Embalagem: 100un</li>
+                        <li>•Pacote/Unidade: 25 x 100</li>
+                        <li>•C/ Fiscal: 39241000</li>
+                        <li>•INMETRO: 005983/2016</li>
+                        <li>•m³ Individual: 0,028</li>
+                    </ul>
+                    <div class="Revelar">
+                        <i class="fa-solid fa-angle-down Icone_Revelar"></i>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
         </div>
 
-        <div class="Copo_um">
-            <div class="Border">
-            <div class="bkcp">
-                <div class="bkimg">
+<!-- Copo -->
+<div class="Copo_um">
+    <div class="Border">
+        <div class="bkcp">
+            <div class="bkimg">
                 <img class="Img_cp" src="img/Produtos/Copo.png">
             </div>
             <div class="bktitle">
                 <p>Nome do produto</p>
             </div>
             <div class="ulinfo">
-            <p>Informações:</p>
+                <p>Informações:</p>
             </div>
-                <ul class="lista">
-                    <li>•Referência: CT-080 TR</li>
-                    <li>•Cor: Transparente</li>
-                    <li>•Material: Poliestireno (PS)</li>
-                    <li>•Volume máximo: 80ml</li>
-                    <li>•Caixa: 2500un</li>
-                    <li>•Embalagem: 100un</li>
-                    <li>•Pacote/Unidade: 25 x 100</li>
-                    <li>•C/ Fiscal: 39241000</li>
-                    <li>•INMETRO: 005983/2016</li>
-                    <li>•m³ Individual: 0,028</li>
-                </ul>
-                <div class="Revelar">
-                    <i class="fa-solid fa-angle-down Icone_Revelar"></i>
-                </div>
-            </div>
+            <ul class="lista hidden"> <!-- Adicione a classe "hidden" aqui -->
+                <li>•Referência: CT-080 TR</li>
+                <li>•Cor: Transparente</li>
+                <li>•Material: Poliestireno (PS)</li>
+                <li>•Volume máximo: 80ml</li>
+                <li>•Caixa: 2500un</li>
+                <li>•Embalagem: 100un</li>
+                <li>•Pacote/Unidade: 25 x 100</li>
+                <li>•C/ Fiscal: 39241000</li>
+                <li>•INMETRO: 005983/2016</li>
+                <li>•m³ Individual: 0,028</li>
+            </ul>
+            <div class="Revelar">
+                <i class="fa-solid fa-angle-down Icone_Revelar"></i>
             </div>
         </div>
-        </div>
+    </div>
+</div>
 
         <!-- Copo -->
         <div class="Copo_um">
@@ -261,6 +261,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             });
         });
+
+        // Section
+        
+        function mostrarListaCopo() {
+    // Seletor para a seção "Copos"
+    var secaoCopos = document.querySelector(".Copos");
+
+    // Verificar o estado atual da visibilidade da seção "Copos"
+    var visibilidade = window.getComputedStyle(secaoCopos).getPropertyValue("visibility");
+
+    if (visibilidade === "hidden" || visibilidade === "") {
+        // Mostrar a seção "Copos" definindo a visibilidade como "visible"
+        secaoCopos.style.visibility = "visible";
+    } else {
+        // Ocultar a seção "Copos" definindo a visibilidade como "hidden"
+        secaoCopos.style.visibility = "hidden";
+    }
+}
+
+
     </script>
 
     <!-- Footer -->
