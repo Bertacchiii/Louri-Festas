@@ -138,6 +138,17 @@
      transition: .3s;
  }
 
+ .mobile-icon {
+    display: none; /* Ocultar o ícone por padrão */
+  }
+  
+  /* Mostrar o ícone apenas em telas com largura máxima de 768px (tamanhos de tela de celular) */
+  @media (max-width: 768px) {
+    .mobile-icon {
+      display: block; /* Exibir o ícone em telas menores */
+    }
+  }
+
 /* -----------BANNER---------- */
 
 .Main_Carrossel{
@@ -414,6 +425,13 @@
     justify-content: center;
     background-color: var(--cor-primaria);
 }
+
+/* .footer-bottom small a:hover{
+    background-color: var(--cor-quartenaria);
+    transition: 0.5s;
+    background: none;
+
+} */
 
 .copyright{
     font-family: var(--fonte-primaria);

@@ -92,8 +92,12 @@
                     <input type="text" name="_honey" style="display:none">
                     <input type="hidden" name="_captcha" value="false">
 
-                    <textarea name="message" maxlength="700" id="message" cols="5" rows="3" placeholder="Mensagem" required></textarea>
-                    <input type="image" id="anexo" placeholder="Anexe um arquivo">
+                    <!-- <textarea name="message" maxlength="700" id="message" cols="5" rows="3" placeholder="Mensagem" required></textarea> -->
+                    <textarea id="message" name="message" placeholder="Mensagem" rows="4" cols="50"></textarea>
+            <div>
+                <label for="file" style="font-family: var(--fonte-primaria);">Anexo:</label>
+                <input type="file" id="file" name="file">
+            </div>
             
                     
                     <div class="Teste">
